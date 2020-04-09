@@ -6,10 +6,11 @@ import math
 DEBUG = False
 DEBUG_1 = True
 class node:
-    def __init__(self, parent, child, check, direction):
+    def __init__(self, parent, child, check, direction, counter):
         self.parent = parent
         self.child = child
         self.check = check
+        self.index = counter
         if direction is not None:
             self.direction = direction.copy()
         else:
@@ -47,18 +48,21 @@ def getAllContacts(folding):
                 if DEBUG_1:
                     print('right', [i, j], [i,j+1], folding[i][j].direction, folding[i][j+1].direction)
                     print((folding[i][j] != folding[i][j+1].parent), (folding[i][j].parent != folding[i][j+1]))
-                contacts.append([[i, j], [i, j+1]])
+                contacts.append([folding[i][j].index, folding[i][j+1].index])
             elif(i != j and i < len(folding) -1 and folding[i][j].direction is not None and folding[i+1][j].direction is not None and ((folding[i][j] != folding[i+1][j].parent) and (folding[i][j].parent != folding[i+1][j]))):
                 if DEBUG_1:
                     print('below', [i, j],[i+1, j], folding[i][j].direction, folding[i+1][j].direction)
                     print((folding[i][j].parent != folding[i+1][j]), (folding[i][j] != folding[i+1][j].parent) )
-                contacts.append([[i, j],[i+1,j]])
+                contacts.append([folding[i][j].index,folding[i+1][j].index])
     return contacts
 
 def ParentGen(seqLength):
-    folding = [[node(None, None, False, None) for j in range(2*seqLength)] for i in range(2*seqLength)]
+    folding = [[node(None, None, False, None, -1) for j in range(2*seqLength)] for i in range(2*seqLength)]
     dirs = []
+    # index in dirs array
+    count = 0
     num =  random.randrange(3)
+
     if DEBUG:
         print("Initial Folding Matrix")
         printMatrix(folding)
@@ -67,7 +71,8 @@ def ParentGen(seqLength):
     row = seqLength
     col = seqLength
     dirs.append(direction[num][0])
-    prev = node(None, None, True, direction[num])
+    prev = node(None, None, True, direction[num], count)
+    count += 1
     folding[row][col] = prev
     if DEBUG:
         print('Initial direction:', direction, direction[num])
@@ -90,7 +95,8 @@ def ParentGen(seqLength):
     while(i < seqLength-1):
         # get direction
         num =  random.randrange(3)
-        curr = node(prev, None, True, direction[num])
+        curr = node(prev, None, True, direction[num], count)
+        count += 1
         # make sure position is open
         if folding[row][col].check == True:
             if DEBUG:
@@ -159,9 +165,10 @@ while(True):
     if res != None:
         break
 dirs, matrix = res
-printMatrix(matrix)
-# printParentMatrix(matrix)
 contacts = getAllContacts(matrix)
-print(dirs)
-for i in contacts:
-    print(i)
+if DEBUG_1:
+    printMatrix(matrix)
+    printParentMatrix(matrix)
+    print(dirs)
+    for i in contacts:
+        print(i)
