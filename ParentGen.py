@@ -4,7 +4,7 @@ import numpy
 import math
 
 DEBUG = False
-
+DEBUG_1 = True
 class node:
     def __init__(self, parent, child, check, direction):
         self.parent = parent
@@ -26,22 +26,32 @@ def printMatrix(folding):
             print(folding[i][j].direction, end="\t")
         print(i, end='\n')
 
+def printParentMatrix(folding):
+    for i in range(len(folding)):
+        if i == 0:
+            for l in range(len(folding[i])):
+                print(l, end='\t')
+            print()
+        for j in range(len(folding[i])):
+            if folding[i][j].parent is not None:
+                print(folding[i][j].parent.direction, end="\t")
+            else:
+                print(None, end="\t")
+        print(i, end='\n')    
 
 def getAllContacts(folding):
     contacts = []
     for i in range(len(folding)):
         for j in range(len(folding[i])):
-            # upper left
-            if i ==0 and j == 0:
-            # top row
-            elif i ==0:
-            # left column
-            elif j ==0:
-            # right column
-            elif j == len(folding[i])-1:
-            # bottom row
-            elif i == len(folding[i])-1:
-            else:
+            if(i != j and j < len(folding)-1 and folding[i][j].direction is not None and folding[i][j+1].direction is not None and ((folding[i][j] != folding[i][j+1].parent) or (folding[i][j].parent != folding[i][j+1]))):
+                if DEBUG_1:
+                    print('below', i, j, folding[i][j].direction, folding[i][j+1].direction)
+                contacts.append([[i, j], [i, j+1]])
+            elif(i != j and i < len(folding) -1 and folding[i][j].direction is not None and folding[i+1][j].direction is not None and ((folding[i][j] != folding[i+1][j].parent) or (folding[i][j].parent != folding[i+1][j]))):
+                if DEBUG_1:
+                    print('above', i, j, folding[i][j].direction, folding[i+1][j].direction)
+                contacts.append([[i, j],[i+1,j]])
+    return contacts
 
 def ParentGen(seqLength):
     folding = [[node(None, None, False, None) for j in range(2*seqLength)] for i in range(2*seqLength)]
@@ -85,7 +95,8 @@ def ParentGen(seqLength):
                 print('repeat')
                 print('\n\n\n\n\n\n\n\n\n\n---------------------------------- REPEAT ----------------------------\n\n\n\n\n\n')
                 print('\n\n\n\n\n\n\n\n')
-            return ParentGen(seqLength)
+            return None
+            # return ParentGen(seqLength)
         folding[row][col] = curr
         # add to directions list
         dirs.append(direction[num][0])
@@ -141,4 +152,14 @@ def Right(direction):
         print('Right', f, l, r)
     return [f, l, r]
 
-dirs, matrix = ParentGen(int(sys.argv[1]))
+while(True):
+    res = ParentGen(int(sys.argv[1]))
+    if res != None:
+        break
+dirs, matrix = res
+printMatrix(matrix)
+printParentMatrix(matrix)
+contacts = getAllContacts(matrix)
+print(dirs)
+for i in contacts:
+    print(i)
