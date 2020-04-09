@@ -14,7 +14,7 @@ class node:
             self.direction = direction.copy()
         else:
             self.direction = None
-        
+
 
 def printMatrix(folding):
     for i in range(len(folding)):
@@ -37,19 +37,21 @@ def printParentMatrix(folding):
                 print(folding[i][j].parent.direction, end="\t")
             else:
                 print(None, end="\t")
-        print(i, end='\n')    
+        print(i, end='\n')
 
 def getAllContacts(folding):
     contacts = []
     for i in range(len(folding)):
         for j in range(len(folding[i])):
-            if(i != j and j < len(folding)-1 and folding[i][j].direction is not None and folding[i][j+1].direction is not None and ((folding[i][j] != folding[i][j+1].parent) or (folding[i][j].parent != folding[i][j+1]))):
+            if(i != j and j < len(folding)-1 and folding[i][j].direction is not None and folding[i][j+1].direction is not None and ((folding[i][j] != folding[i][j+1].parent) and (folding[i][j].parent != folding[i][j+1]))):
                 if DEBUG_1:
-                    print('below', i, j, folding[i][j].direction, folding[i][j+1].direction)
+                    print('right', [i, j], [i,j+1], folding[i][j].direction, folding[i][j+1].direction)
+                    print((folding[i][j] != folding[i][j+1].parent), (folding[i][j].parent != folding[i][j+1]))
                 contacts.append([[i, j], [i, j+1]])
-            elif(i != j and i < len(folding) -1 and folding[i][j].direction is not None and folding[i+1][j].direction is not None and ((folding[i][j] != folding[i+1][j].parent) or (folding[i][j].parent != folding[i+1][j]))):
+            elif(i != j and i < len(folding) -1 and folding[i][j].direction is not None and folding[i+1][j].direction is not None and ((folding[i][j] != folding[i+1][j].parent) and (folding[i][j].parent != folding[i+1][j]))):
                 if DEBUG_1:
-                    print('above', i, j, folding[i][j].direction, folding[i+1][j].direction)
+                    print('below', [i, j],[i+1, j], folding[i][j].direction, folding[i+1][j].direction)
+                    print((folding[i][j].parent != folding[i+1][j]), (folding[i][j] != folding[i+1][j].parent) )
                 contacts.append([[i, j],[i+1,j]])
     return contacts
 
@@ -158,7 +160,7 @@ while(True):
         break
 dirs, matrix = res
 printMatrix(matrix)
-printParentMatrix(matrix)
+# printParentMatrix(matrix)
 contacts = getAllContacts(matrix)
 print(dirs)
 for i in contacts:
