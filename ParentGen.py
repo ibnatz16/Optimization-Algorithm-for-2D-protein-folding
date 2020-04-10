@@ -16,6 +16,61 @@ class node:
         else:
             self.direction = None
 
+argIn=sys.argv[2]
+f = open(argIn, "r")
+# o = open(output, "w")
+line = f.readline()
+seqn = 0
+seq = ""
+while line:
+    if(not line.startswith('>')):
+        # sequence to print
+        seqn = seqn+1
+        frag = 0
+        # iterate through sequence and chop it into blocks
+        i = 0
+        seqlen= len(line)
+        seq=line
+        # print(seqlen)
+        # print(seq)
+    line = f.readline().strip()
+# o.close()
+f.close()
+
+
+def findFitnessScore(contacts):
+    global seq
+    # print(seq)
+    
+    #for testing
+    sample= "MMNADMDAVAFSEMN"
+    proteins =	{"A" : "H",    "C" : "H",    "I" : "H",
+    "L" : "H",    "M" : "H",    "F" : "H",    "P" : "H",
+    "W" : "H",    "Y" : "H",    "V" : "H",
+    "R" : "P",    "N" : "P",    "D" : "P",    "Q" : "P",
+    "E" : "P",    "G" : "P",
+    "H" : "P",    "K" : "P",    "S" : "P",    "T" : "P" }
+
+    # print("DSJOFIOSDSD")
+    # Ans= HHPHPHPHHHHPPHP
+    i=0
+    ans=""
+    score=0
+    # print("dsafjsaokdfig")
+    # print(contacts[0][0])
+    # print(proteins[seq[contacts[0][0]]])
+    # print(proteins[seq[contacts[0][1]]])
+    while i< len(contacts):
+        if(proteins[seq[contacts[i][0]]]==proteins[seq[contacts[i][1]]]):
+            # print("MATCH")
+            score+=1
+        # else:
+            # print("No match")
+        i+=1
+    print("scores")
+    print(score)
+    return score
+
 
 def printMatrix(folding):
     for i in range(len(folding)):
@@ -49,6 +104,9 @@ def getAllContacts(folding):
                     print('right', [i, j], [i,j+1], folding[i][j].direction, folding[i][j+1].direction)
                     print((folding[i][j] != folding[i][j+1].parent), (folding[i][j].parent != folding[i][j+1]))
                 contacts.append([folding[i][j].index, folding[i][j+1].index])
+                print(folding[i][j+1].index)
+                print("FDHUIJOPIJHBIDJO")
+                print(folding[i][j+1].index)
             elif(i != j and i < len(folding) -1 and folding[i][j].direction is not None and folding[i+1][j].direction is not None and ((folding[i][j] != folding[i+1][j].parent) and (folding[i][j].parent != folding[i+1][j]))):
                 if DEBUG_1:
                     print('below', [i, j],[i+1, j], folding[i][j].direction, folding[i+1][j].direction)
@@ -166,9 +224,14 @@ while(True):
         break
 dirs, matrix = res
 contacts = getAllContacts(matrix)
+print(dirs)
+for i in contacts:
+    print(i)
 if DEBUG_1:
     printMatrix(matrix)
     printParentMatrix(matrix)
     print(dirs)
     for i in contacts:
         print(i)
+if len(contacts)is not 0:
+    findFitnessScore(contacts)
