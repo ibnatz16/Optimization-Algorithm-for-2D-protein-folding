@@ -192,6 +192,7 @@ def ParentGen(seqLength):
             print('after direction', direction)
             print(col, row)
         i+=1
+        checkLegal(dirs, folding)
     return dirs, folding
 def getdirL(arr):
     if arr[2] == 0:
@@ -217,6 +218,18 @@ def Right(direction):
     if DEBUG:
         print('Right', f, l, r)
     return [f, l, r]
+
+def checkLegal(dirs, folding):
+    m = 0
+    n = 0
+    for i in range(len(folding)):
+        for j in range(len(folding[i])):
+            if (folding[i][j] == dirs[m][n] and folding[i][j] != None):
+                return False
+            else:
+                print('Legal')
+                n+=1
+            m+=1
 
 while(True):
     res = ParentGen(int(sys.argv[1]))
