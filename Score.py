@@ -1,4 +1,6 @@
 from Debug import *
+import random
+
 
 def getAllContacts(folding):
     contacts = []
@@ -37,7 +39,6 @@ def findFitnessScore(contacts, seq):
     # print(contacts[0][0])
     # print(proteins[seq[contacts[0][0]]])
     # print(proteins[seq[contacts[0][1]]])
-    print(contacts)
     while i< len(contacts):
         if(proteins[seq[contacts[i][0]]]==proteins[seq[contacts[i][1]]]):
             # print("MATCH")
@@ -54,8 +55,10 @@ def getRandom(upper):
     x = random.randint(0, upper)
     y = random.randint(0, upper)
     if x == y:
-        return getRandom(x,y)
+        return getRandom(upper)
     return x, y
+
+
 # def checkLegal(dirs, folding):
 #     m = 0
 #     n = 0
