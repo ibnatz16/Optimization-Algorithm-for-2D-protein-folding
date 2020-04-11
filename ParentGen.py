@@ -37,7 +37,7 @@ class node:
         else:
             self.direction = None
 
-def ParentGen(seqLength):
+def getParentGen(seqLength):
     folding = [[node(None, None, False, None, -1) for j in range(2*seqLength)] for i in range(2*seqLength)]
     dirs = []
     # index in dirs array
@@ -102,7 +102,6 @@ def ParentGen(seqLength):
                 i = 0
                 continue
             continue
-            return None, dirs
         possible = 0
         folding[row][col] = curr
         # add to directions list
