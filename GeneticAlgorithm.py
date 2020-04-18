@@ -9,7 +9,7 @@ class Simulation():
         self.file = file
         self.initial = initial
         self.iterations = iterations
-        self.fitnessCutoff = cutoff
+        self.fitnessCutoff = int(cutoff)
         self.generationScore = []
         # current generation
         self.curr = None
@@ -55,7 +55,7 @@ class Simulation():
                 print(len(self.curr.dirs[x])/2, len(self.curr.dirs[y])/2)
             p = self.curr
             # p1_dirs and p2_dirs are the sequence of L/F/R's for the beginning/end of generation at index x/y
-            p1_dirs, p2_dirs = p.dirs[x][:math.floor(len(self.curr.dirs[x])/2)], p.dirs[y][math.ceil(len(self.curr.dirs[y])/2):]
+            p1_dirs, p2_dirs = p.dirs[x][:self.fitnessCutoff], p.dirs[y][self.fitnessCutoff:]
             # get child
             c_dirs = p1_dirs.copy()
             c_dirs.extend(p2_dirs)
@@ -93,7 +93,7 @@ class Generation():
         self.seq = ""
 
 
-sim = Simulation(sys.argv[1], 10, 10, 10)
+sim = Simulation(sys.argv[1], 10, 10, sys.argv[2])
 sim.initialize()
 sim.crossOver()
 if DEBUG_3:
