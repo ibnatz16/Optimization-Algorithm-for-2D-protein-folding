@@ -1,5 +1,6 @@
 from Matrix import *
 from Debug import *
+from Mutation import *
 import sys
 import random
 import math
@@ -9,7 +10,7 @@ class Simulation():
         self.file = file
         self.initial = initial
         self.iterations = iterations
-        self.fitnessCutoff = int(cutoff)
+        self.fitnessCutoff = cutoff
         self.generationScore = []
         # current generation
         self.curr = None
@@ -82,10 +83,10 @@ class Simulation():
             # get score c
             c_sc = findFitnessScore(c_cp, self.curr.seq)
             # check that childs score is less than both of the parents
-            print('x is ', x)
-            print(' y is ', y)
-            print('child score is ', c_sc)
-            print('score matrix is \n ', p.score)
+            # print('x is ', x)
+            # print(' y is ', y)
+            # print('child score is ', c_sc)
+            # print('score matrix is \n ', p.score)
             if c_sc < p.score[x] or c_sc < p.score[y]:
                 continue
             # add to pool from which we will select
@@ -96,6 +97,8 @@ class Simulation():
             self.children.seq = self.curr.seq
             i += 1
         self.curr.dirs.extend(self.children.dirs) 
+        print("crossover curr. dirs")
+        print( self.curr.dirs)
 class Generation():
     def __init__(self):
         self.contactPoints = []
@@ -104,42 +107,32 @@ class Generation():
         self.score = []
         self.seq = ""
 
-
-sim = Simulation(sys.argv[1], 5, 10, sys.argv[2])
-sim.initialize()
-sim.crossOver()
-print('F', sim.generationScore)
-if DEBUG_3:
-    # print children
-    print(sim.children.contactPoints)
-    # print(sim.children.dirs)
-    #print(sorted(sim.children.score))
 def selection(sim, percent):
-    percent = int(percent)
+    # percent = int(percent)
     t = sim.generationScore
     s = sorted(sim.generationScore, reverse = True)
-    print('sorted', s)
+    # print('sorted', s)
     percent = percent/100
-    print(percent)
+    # print(percent)
     top = math.floor(percent*len(s))
-    print(top)
+    # print(top)
     topFit = s[:top]
     s = s[top:]
-    print(s)
-    print(topFit)
+    # print(s)
+    # print(topFit)
     res = []
     res.extend(topFit)
     seq = []
-    m = 0;
+    m = 0
     while(len(res)<sim.initial):
         x = random.randint(0, len(s)-1)
         res.append(s[x])
-        print('S[x]', s[x])
-        print(s)
+        # print('S[x]', s[x])
+        # print(s)
         s.pop(x)
-    print('Res',res)
+    # print('Res',res)
     print('T', t)
-    print('Dirs', sim.curr.dirs)
+    # print('Dirs', sim.curr.dirs)
     index = []
     for j in range(len(res)):
         for i in range(len(t)):
@@ -152,12 +145,51 @@ def selection(sim, percent):
                 if(i in index):
                     continue
                 print('Sim', t[i])
+
+                #####################
+                # Issue here when mutations delete directions
+                ###################
+                print(sim.curr.dirs[i])
+
                 seq.append(sim.curr.dirs[i])
                 index.append(i)
                 print(sim.curr.dirs[i])
                 m+=1
                 print('M',m)
-                i = 0;
+                i = 0
                 break
+    print()
+    print("selection sequence result")
     print(seq)
-selection(sim, sys.argv[3])
+    return seq
+
+
+#########################
+# Main calls start here #
+#########################
+
+#args (file name, pop size, iterations, cutoff location for crossover, percent of selection, mutation rate(as decimal))
+
+
+sim = Simulation(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4]))
+sim.initialize()
+c=0
+while(c<sim.iterations):
+    print("before cross \n")
+    print(sim.curr.dirs)
+    sim.crossOver()
+    # print('F', sim.generationScore)
+    if DEBUG_3:
+        # print children
+        # print(sim.children.contactPoints)
+        # print(sim.children.dirs)
+        print(sorted(sim.children.score))
+
+    sel_pop= selection(sim, float(sys.argv[5])) # returns array directions of new population 
+    mut_pop= mutate(sel_pop,float(sys.argv[6])) # returns mutated population
+    print("\n mutation pop")
+    print(mut_pop)
+    sim.curr.dirs=mut_pop
+    c+=1
+
+
