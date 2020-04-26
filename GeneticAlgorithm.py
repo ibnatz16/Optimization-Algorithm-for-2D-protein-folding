@@ -1,9 +1,11 @@
 from Matrix import *
 from Debug import *
 from Mutation import *
+from matplotlib import pyplot as plt
 import sys
 import random
 import math
+import numpy as np
 
 class Simulation():
     def __init__(self, file, initial, iterations, cutoff):
@@ -16,6 +18,8 @@ class Simulation():
         self.curr = None
         # possible next generation
         self.children = None
+        self.seq = 0
+        self.totalScore = []
     def initialize(self):
         generation = Generation()
         generation.seq = getData(self.file)
@@ -45,8 +49,9 @@ class Simulation():
             print(generation.contactPoints)
         # add generation
         self.generationScore.extend(generation.score)
-        print("Paret", self.generationScore)
+        print("Parent", self.generationScore)
         self.curr = generation
+        self.seq = len(generation.seq)
     ### CHECK LEGALITY, GET MATRIX FROM DIRS
     def crossOver(self):
         if DEBUG_3:
@@ -99,6 +104,28 @@ class Simulation():
         self.curr.dirs.extend(self.children.dirs) 
         print("crossover curr. dirs")
         print( self.curr.dirs)
+
+    def update(self,newdirs):
+        #update scores and curr
+        self.curr.dirs = newdirs
+        self.curr.contactPoints = []
+        self.curr.score = []
+        average = sum(self.generationScore)/len(self.generationScore)
+        self.totalScore.append([average, max(self.generationScore)])
+        print(self.totalScore)
+        self.generationScore = []
+        for i in range(len(newdirs)):
+            updatedMatrix = getMatrix(newdirs[i], len(self.curr.seq))
+            if (updatedMatrix == False):
+                print('update is false')
+                sys.exit()
+            updated_cp = getAllContacts(updatedMatrix)
+            update_sc = findFitnessScore(updated_cp, self.curr.seq)
+            self.curr.contactPoints.append(updated_cp)
+            self.curr.score.append(update_sc)
+            self.generationScore.append(update_sc)
+            
+
 class Generation():
     def __init__(self):
         self.contactPoints = []
@@ -134,15 +161,20 @@ def selection(sim, percent):
     print('T', t)
     # print('Dirs', sim.curr.dirs)
     index = []
-    for j in range(len(res)):
-        for i in range(len(t)):
+    i = 0
+    j = 0
+    while j < len(res):
+        while i < len(t):
         
             print('I is ', i)
             print('J is ', j)
             print('T[i]', t[i])
+            print('T size', len(t), 'Res size', len(res))
             print('Res[j]', res[j])
             if(res[j] == t[i]):
                 if(i in index):
+                    print('Continue')
+                    i+=1
                     continue
                 print('Sim', t[i])
 
@@ -158,9 +190,12 @@ def selection(sim, percent):
                 print('M',m)
                 i = 0
                 break
+            i+=1
+        j+=1
     print()
     print("selection sequence result")
     print(seq)
+    print('Res max', max(res), 'T max', max(t))
     return seq
 
 
@@ -186,10 +221,17 @@ while(c<sim.iterations):
         print(sorted(sim.children.score))
 
     sel_pop= selection(sim, float(sys.argv[5])) # returns array directions of new population 
-    mut_pop= mutate(sel_pop,float(sys.argv[6])) # returns mutated population
+    print('Seq length', sim.seq)
+    mut_pop= mutate(sel_pop,float(sys.argv[6]), sim.seq) # returns mutated population
     print("\n mutation pop")
     print(mut_pop)
-    sim.curr.dirs=mut_pop
+    #sim.curr.dirs=mut_pop
+    sim.update(mut_pop)
     c+=1
-
-
+avgs = []
+iterations = np.linspace(0, int(sys.argv[3]), len(sim.totalScore))
+print('Iterations', iterations)
+for i in range(len(sim.totalScore)):
+    avgs.append(sim.totalScore[i][0])
+plt.plot(iterations, avgs)
+plt.show()
