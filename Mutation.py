@@ -5,11 +5,13 @@ import sys
 import math
 
 directions = ["L", "R", "F"]
-# ["A",   "C",    "I",    "L"   ,    "M"   ,    "F"   ,    "P"   ,
-#     "W"   ,    "Y"   ,    "V" ,    "R"  ,    "N"  ,    "D"  ,    "Q"  ,
-#     "E"  ,    "G"  ,    "H",    "K",    "S",    "T" ]
 
-# seq = protein seq ; prob = mutation prob
+def getDir(seq):
+    x = random.randint(0,2)
+    if directions[x] == seq:
+        return getDir(seq)
+    return directions[x]
+
 def mutate(pop,prob, len_seq):
     mut_pop=[]
     p = 0
@@ -22,35 +24,21 @@ def mutate(pop,prob, len_seq):
         for i in range(len(seq)):
             rand= random.random()
             if(rand<=prob):
-                r2=random.random() *2
-                if(r2>=1):
-                    x = random.randint(0, 2) 
-                    # mutate
-                    if(directions[x]!= seq[i]):
-                        sequence.append(directions[x])
+                nex = getDir(seq[i])
+                sequence.append(nex)
                 # else:
-                # delete do nothing
-                    
+                # delete do nothing        
             else:
                 sequence.append(seq[i])
-        # print("sequence is "+ sequence)
-        # print()
-        print('Paramater len', len_seq, 'Seq length', len(sequence))
+        if DEBUG_3:
+            print('Paramater len', len_seq, 'Seq length', len(sequence))
+            print('mutation matrix ', len(sequence), sequence, len_seq)
         temp = getMatrix(sequence, len_seq)
         if (temp== False):
-            print('mutation seq is false')
             sequence = []
             continue 
-
         mut_pop.append(sequence)
-        p+=1
-       
+        p+=1     
     return mut_pop
 
-# z=[['L', 'F', 'F', 'L', 'F', 'F', 'R', 'L', 'F', 'L', 'F'], ['R', 'R', 'L', 'R', 'F', 'R', 'L', 'L', 'R', 'F', 'L'], ['R', 'L', 'L', 'R', 'R', 'F', 'R', 'L', 'R', 'L', 'R'], ['R', 'F', 'F', 'F', 'L', 'F', 'L', 'F', 'L', 'R', 'R'], ['R', 'L', 'L', 'R', 'R', 'F', 'R', 'L', 'F', 'L', 'F']]
-# print(z)
-# print()
-# y= mutate(z,.9)
-# print("wjole s")
-# print(y)
 

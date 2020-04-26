@@ -20,6 +20,7 @@ class Simulation():
         self.children = None
         self.seq = 0
         self.totalScore = []
+        self.totalDirs = []
     def initialize(self):
         generation = Generation()
         generation.seq = getData(self.file)
@@ -44,13 +45,12 @@ class Simulation():
             #if len(generation.contactPoints[i])is not 0:
             m+=1
             generation.score.append(findFitnessScore(generation.contactPoints[i], generation.seq))
-        print('m is ', m)
         if DEBUG_1:
             print(generation.contactPoints)
         # add generation
         self.generationScore.extend(generation.score)
-        print("Parent", self.generationScore)
         self.curr = generation
+        self.totalDirs.append([generation.score, generation.dirs])
         self.seq = len(generation.seq)
     ### CHECK LEGALITY, GET MATRIX FROM DIRS
     def crossOver(self):
@@ -74,7 +74,7 @@ class Simulation():
             c_dirs.extend(p2_dirs)
             if DEBUG_3:
                 print('c_dir', c_dirs)
-            c = getMatrix(c_dirs, len(self.curr.dirs[x]))
+            c = getMatrix(c_dirs, len(self.curr.seq))
             if(c == False):
                 if DEBUG_2:
                     print('returned false', x, y)
@@ -102,17 +102,16 @@ class Simulation():
             self.children.seq = self.curr.seq
             i += 1
         self.curr.dirs.extend(self.children.dirs) 
-        print("crossover curr. dirs")
-        print( self.curr.dirs)
 
     def update(self,newdirs):
         #update scores and curr
+        self.totalDirs.append([self.generationScore, self.curr.dirs])
         self.curr.dirs = newdirs
         self.curr.contactPoints = []
         self.curr.score = []
         average = sum(self.generationScore)/len(self.generationScore)
         self.totalScore.append([average, max(self.generationScore)])
-        print(self.totalScore)
+        print('scores:', self.totalScore)
         self.generationScore = []
         for i in range(len(newdirs)):
             updatedMatrix = getMatrix(newdirs[i], len(self.curr.seq))
@@ -124,7 +123,70 @@ class Simulation():
             self.curr.contactPoints.append(updated_cp)
             self.curr.score.append(update_sc)
             self.generationScore.append(update_sc)
-            
+    def selection(self, percent):
+        # percent = int(percent)
+        t = self.generationScore
+        s = sorted(self.generationScore, reverse = True)
+        # print('sorted', s)
+        percent = percent/100
+        # print(percent)
+        top = math.floor(percent*len(s))
+        # print(top)
+        topFit = s[:top]
+        s = s[top:]
+        # print(s)
+        # print(topFit)
+        res = []
+        res.extend(topFit)
+        seq = []
+        m = 0
+        while(len(res)<self.initial):
+            x = random.randint(0, len(s)-1)
+            res.append(s[x])
+            # print('S[x]', s[x])
+            # print(s)
+            s.pop(x)
+        # print('Res',res)
+        if DEBUG_3:
+            print('T', t)
+        # print('Dirs', sim.curr.dirs)
+        index = []
+        i = 0
+        j = 0
+        while j < len(res):
+            while i < len(t):
+                if DEBUG_3:
+                    print('I is ', i)
+                    print('J is ', j)
+                    print('T[i]', t[i])
+                    print('T size', len(t), 'Res size', len(res))
+                    print('Res[j]', res[j])
+                if(res[j] == t[i]):
+                    if(i in index):
+                        if DEBUG_3:
+                            print('Continue')
+                        i+=1
+                        continue
+                    if DEBUG_3:
+                        print('Sim', t[i])
+                        print(self.curr.dirs[i])
+
+                    seq.append(self.curr.dirs[i])
+                    index.append(i)
+                    m+=1
+                    if DEBUG_3:
+                        print(self.curr.dirs[i])
+                        print('M',m)
+                    i = 0
+                    break
+                i+=1
+            j+=1
+        if DEBUG_3:
+            print()
+            print("selection sequence result")
+            print(seq)
+            print('Res max', max(res), 'T max', max(t))
+        return seq            
 
 class Generation():
     def __init__(self):
@@ -134,70 +196,25 @@ class Generation():
         self.score = []
         self.seq = ""
 
-def selection(sim, percent):
-    # percent = int(percent)
-    t = sim.generationScore
-    s = sorted(sim.generationScore, reverse = True)
-    # print('sorted', s)
-    percent = percent/100
-    # print(percent)
-    top = math.floor(percent*len(s))
-    # print(top)
-    topFit = s[:top]
-    s = s[top:]
-    # print(s)
-    # print(topFit)
-    res = []
-    res.extend(topFit)
-    seq = []
-    m = 0
-    while(len(res)<sim.initial):
-        x = random.randint(0, len(s)-1)
-        res.append(s[x])
-        # print('S[x]', s[x])
-        # print(s)
-        s.pop(x)
-    # print('Res',res)
-    print('T', t)
-    # print('Dirs', sim.curr.dirs)
-    index = []
-    i = 0
-    j = 0
-    while j < len(res):
-        while i < len(t):
-        
-            print('I is ', i)
-            print('J is ', j)
-            print('T[i]', t[i])
-            print('T size', len(t), 'Res size', len(res))
-            print('Res[j]', res[j])
-            if(res[j] == t[i]):
-                if(i in index):
-                    print('Continue')
-                    i+=1
-                    continue
-                print('Sim', t[i])
+def getMin(arr):
+    min = 99999
+    ind = 0
+    for i in range(len(arr)):
+        if arr[i] < min:
+            min = arr[i]
+            ind = i
+    return ind, min
 
-                #####################
-                # Issue here when mutations delete directions
-                ###################
-                print(sim.curr.dirs[i])
 
-                seq.append(sim.curr.dirs[i])
-                index.append(i)
-                print(sim.curr.dirs[i])
-                m+=1
-                print('M',m)
-                i = 0
-                break
-            i+=1
-        j+=1
-    print()
-    print("selection sequence result")
-    print(seq)
-    print('Res max', max(res), 'T max', max(t))
-    return seq
-
+def getNums(upper):
+    c = 0
+    ret = []
+    while c < 10:
+        num = random.randint(0,upper-1)
+        if num not in ret:
+            ret.append(num)
+            c+=1
+    return ret
 
 #########################
 # Main calls start here #
@@ -210,28 +227,98 @@ sim = Simulation(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4
 sim.initialize()
 c=0
 while(c<sim.iterations):
-    print("before cross \n")
-    print(sim.curr.dirs)
+    print("iteration", c+1)
+    # print(sim.curr.dirs)
     sim.crossOver()
-    # print('F', sim.generationScore)
     if DEBUG_3:
-        # print children
-        # print(sim.children.contactPoints)
-        # print(sim.children.dirs)
         print(sorted(sim.children.score))
-
-    sel_pop= selection(sim, float(sys.argv[5])) # returns array directions of new population 
-    print('Seq length', sim.seq)
+    sel_pop = sim.selection(float(sys.argv[5])) # returns array directions of new population 
     mut_pop= mutate(sel_pop,float(sys.argv[6]), sim.seq) # returns mutated population
-    print("\n mutation pop")
-    print(mut_pop)
-    #sim.curr.dirs=mut_pop
     sim.update(mut_pop)
     c+=1
+
+
+#########################
+# Plots                 #
+#########################
 avgs = []
 iterations = np.linspace(0, int(sys.argv[3]), len(sim.totalScore))
-print('Iterations', iterations)
 for i in range(len(sim.totalScore)):
     avgs.append(sim.totalScore[i][0])
-plt.plot(iterations, avgs)
-plt.show()
+# plt.plot(iterations, avgs)
+# plt.show()
+plt.savefig('FitnessVTime.png')
+
+
+
+
+# randomly plot 10 foldings for first and last generation
+name = 'folding_initial_'
+nums = getNums(int(sys.argv[2]))
+# get worst case for first generation
+ind, score = getMin(sim.totalDirs[0][0])
+ax = 0
+proteins =	{"A" : "H",    "C" : "H",    "I" : "H",
+    "L" : "H",    "M" : "H",    "F" : "H",    "P" : "H",
+    "W" : "H",    "Y" : "H",    "V" : "H",
+    "R" : "P",    "N" : "P",    "D" : "P",    "Q" : "P",
+    "E" : "P",    "G" : "P",
+    "H" : "P",    "K" : "P",    "S" : "P",    "T" : "P" }
+# get x and y from matrix
+print('first:')
+for num in nums:
+    x = []
+    y = []
+    c = []
+    m = getSequence(sim.totalDirs[0][1][num], sim.seq)
+    for i in m:
+        x.append(i[0])
+        y.append(i[1])
+    # fill out colors
+    for i in range(len(x)):
+        if(proteins[sim.curr.seq[i]] == "H"):
+            # print("Hydrophobic")
+            c.append("red")
+        else:
+            # print("Hydrophillic")
+            c.append("green")
+    # print(x, len(x))
+    # print(y, len(y))
+    # print(c, len(c))
+    plt.axis('off')
+    plt.scatter(x,y,c=c,s=100)
+    plt.plot(x,y,linestyle='dashed',color='black')
+    print('score', sim.totalDirs[0][0][num])
+    plt.savefig(name+str(ax)+'.png')
+    plt.show()
+    ax += 1
+# get last generation
+name = 'folding_final_'
+ax = 0
+print('final:')
+for num in nums:
+    x = []
+    y = []
+    c = []
+    m = getSequence(sim.curr.dirs[num], sim.seq)
+    for i in m:
+        x.append(i[0])
+        y.append(i[1])
+    # fill out colors
+    for i in range(len(x)):
+        if(proteins[sim.curr.seq[i]] == "H"):
+            # print("Hydrophobic")
+            c.append("red")
+        else:
+            # print("Hydrophillic")
+            c.append("green")
+    # print(x, len(x))
+    # print(y, len(y))
+    # print(c, len(c))
+    plt.axis('off')
+    plt.scatter(x,y,c=c,s=100)
+    plt.plot(x,y,linestyle='dashed',color='black')
+    print('score', sim.curr.score[num])
+    plt.savefig(name+str(ax)+'.png')
+    plt.show()
+    ax += 1

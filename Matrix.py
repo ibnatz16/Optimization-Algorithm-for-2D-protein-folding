@@ -202,7 +202,7 @@ def getMatrix(dirs, seqLength):
         # make sure position is open
         if DEBUG_2:
             print(count)
-            print(row, col, count, dirs[count], len(dirs))
+            print(row, col, count, dirs[count], len(dirs), seqLength)
         if folding[row+direction[dict[dirs[count]]][2]][col+direction[dict[dirs[count]]][1]].check == True:
             if DEBUG_3:
                 print('return false', dirs)
@@ -236,3 +236,81 @@ def getMatrix(dirs, seqLength):
     if DEBUG_3:
         print('return true')
     return folding
+
+def getSequence(dirs, seqLength):
+    # 2nx2n matrix
+    folding = [[node(None, None, False, None, -1) for j in range(2*seqLength)] for i in range(2*seqLength)]
+    # index in dirs array
+    count = 0
+    # return
+    ret = []
+    if DEBUG_2:
+        print("Initial Folding Matrix")
+        printMatrix(folding)
+    dict = {"F": 0, "L": 1, "R": 2}
+    direction = [["F", 0, 1 ],["L", -1, 0],["R", 1, 0]]
+    row = seqLength
+    col = seqLength
+    if DEBUG_2:
+        print('vals', dirs[count], dict[dirs[count]], direction[dict[dirs[count]]])
+    prev = node(None, None, True, direction[dict[dirs[count]]], count)
+    count += 1
+    ret.append([row, col])
+    if DEBUG_2:
+        print('Initial direction:', dirs[count], direction[dict[dirs[count]]])
+        print('Update Matrix')
+        printMatrix(folding)
+        print('direction', direction[dict[dirs[count]]])
+        print(col, row)
+    row += direction[dict[dirs[count]]][2]
+    col += direction[dict[dirs[count]]][1]
+
+    if(dirs[count] == "L"):
+        direction = Left(direction)
+    elif (dirs[count]== "R"):
+        direction = Right(direction)
+    if DEBUG_2:
+        print('after direction', direction)
+        print(col, row)
+    i = 0
+    while(count < len(dirs)-1):
+        # get direction
+        curr = node(prev, None, True, direction[dict[dirs[count]]], count)
+        count += 1
+        # make sure position is open
+        if DEBUG_2:
+            print(count)
+            print(row, col, count, dirs[count], len(dirs))
+        if folding[row+direction[dict[dirs[count]]][2]][col+direction[dict[dirs[count]]][1]].check == True:
+            if DEBUG_3:
+                print('return false', dirs)
+            return False
+        ret.append([row,col])
+
+        if DEBUG_2:
+            print(folding[row][col].direction)
+            print('Update Matrix')
+            printMatrix(folding)
+            print('direction', dict[dirs[count]])
+            print(col, row)
+
+        # move
+        row += direction[dict[dirs[count]]][2]
+        col += direction[dict[dirs[count]]][1]
+        # curr is new parent
+        prev = curr
+        # update direction
+        if(dirs[count] == "L"):
+            direction = Left(direction)
+        elif (dirs[count] == "R"):
+            direction = Right(direction)
+        else:
+            if DEBUG_2:
+                print('Forward', direction)
+        if DEBUG_2:
+            print('after direction', direction)
+            print(col, row)
+        i+=1
+    if DEBUG_3:
+        print('return true')
+    return ret

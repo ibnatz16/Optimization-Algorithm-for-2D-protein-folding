@@ -58,15 +58,3 @@ def getRandom(upper):
         return getRandom(upper)
     return x, y
 
-
-# def checkLegal(dirs, folding):
-#     m = 0
-#     n = 0
-#     for i in range(len(folding)):
-#         for j in range(len(folding[i])):
-#             if (folding[i][j] == dirs[m][n] and folding[i][j] != None):
-#                 return False
-#             else:
-#                 print('Legal')
-#                 n+=1
-#             m+=1
