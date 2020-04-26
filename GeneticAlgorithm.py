@@ -280,6 +280,8 @@ print('First Generation:')
 for num in nums:
     x = []
     y = []
+    cp_x = []
+    cp_y = []
     c = []
     m = getSequence(sim.totalDirs[0][1][num], sim.seq)
     for i in m:
@@ -296,16 +298,25 @@ for num in nums:
     # print(x, len(x))
     # print(y, len(y))
     # print(c, len(c))
+    # print('x,y',x,y)
     mm = getMatrix(sim.totalDirs[0][1][num], sim.seq)
     cp = getAllContacts(mm)
+    # print('cp', cp)
+    for i in cp:
+        if(proteins[sim.curr.seq[i[0]]] == "H" and proteins[sim.curr.seq[i[1]]] == "H"):
+            cp_x.append([x[i[0]],x[i[1]]])
+            cp_y.append([y[i[0]],y[i[1]]])
+    # print('cp_x,cp_y',cp_x,cp_y)
     fs = findFitnessScore(cp, sim.curr.seq)
-    h = mpatches.Patch(color='red', label='Hydrophobic')
-    hp = mpatches.Patch(color='green', label='Hydrophillic')
-    plt.legend(handles=[h,hp])
+    h = mpatches.Patch(color='red', label='Hydrophobic Amino Acid')
+    hp = mpatches.Patch(color='green', label='Hydrophillic Amino Acid')
     plt.axis('off')
     plt.title('Score: ' + str(fs))
     plt.scatter(x,y,c=c,s=100)
-    plt.plot(x,y,linestyle='dashed',color='black')
+    for cx,cy in zip(cp_x,cp_y):
+        plt.plot(cx, cy, linestyle='dashed',color='purple',linewidth=2)
+    plt.plot(x,y,color='black')
+    plt.legend(handles=[h,hp])
     print(sys.argv[1]+name+str(ax)+'.png score:', fs)
     plt.savefig('folding/'+sys.argv[1]+"_intial_"+sys.argv[2]+"_"+sys.argv[3]+"_"+sys.argv[4]+"_"+sys.argv[5]+"_"+sys.argv[6]+"_"+str(ax)+'.png')
     plt.show()
@@ -318,6 +329,8 @@ for num in nums:
     x = []
     y = []
     c = []
+    cp_x = []
+    cp_y = []
     m = getSequence(sim.curr.dirs[num], sim.seq)
     for i in m:
         x.append(i[0])
@@ -335,6 +348,10 @@ for num in nums:
     # print(c, len(c))
     mm_1 = getMatrix(sim.curr.dirs[num], sim.seq)
     cp_1 = getAllContacts(mm_1)
+    for i in cp_1:
+        if(proteins[sim.curr.seq[i[0]]] == "H" and proteins[sim.curr.seq[i[1]]] == "H"):
+            cp_x.append([x[i[0]],x[i[1]]])
+            cp_y.append([y[i[0]],y[i[1]]])
     fs_1 = findFitnessScore(cp_1, sim.curr.seq)
     h = mpatches.Patch(color='red', label='Hydrophobic')
     hp = mpatches.Patch(color='green', label='Hydrophillic')
@@ -342,7 +359,9 @@ for num in nums:
     plt.axis('off')
     plt.title('Score: ' + str(fs_1))
     plt.scatter(x,y,c=c,s=100)
-    plt.plot(x,y,linestyle='dashed',color='black')
+    for cx,cy in zip(cp_x,cp_y):
+        plt.plot(cx, cy, linestyle='dashed',color='purple',linewidth=2)
+    plt.plot(x,y,color='black')
     print(sys.argv[1]+name+str(ax)+'.png score:', fs_1)
     plt.savefig('folding/'+sys.argv[1]+"_final_"+sys.argv[2]+"_"+sys.argv[3]+"_"+sys.argv[4]+"_"+sys.argv[5]+"_"+sys.argv[6]+"_"+str(ax)+'.png')
     plt.show()
