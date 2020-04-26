@@ -40,7 +40,7 @@ def findFitnessScore(contacts, seq):
     # print(proteins[seq[contacts[0][0]]])
     # print(proteins[seq[contacts[0][1]]])
     while i< len(contacts):
-        if(proteins[seq[contacts[i][0]]]==proteins[seq[contacts[i][1]]]):
+        if(proteins[seq[contacts[i][0]]]==proteins[seq[contacts[i][1]]]=="H"):
             # print("MATCH")
             score+=1
         # else:
