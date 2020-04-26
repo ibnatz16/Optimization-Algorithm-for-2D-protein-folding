@@ -2,6 +2,7 @@ from Matrix import *
 from Debug import *
 from Mutation import *
 from matplotlib import pyplot as plt
+from matplotlib import patches as mpatches
 import sys
 import random
 import math
@@ -285,6 +286,9 @@ for num in nums:
     # print(x, len(x))
     # print(y, len(y))
     # print(c, len(c))
+    h = mpatches.Patch(color='red', label='Hydrophobic')
+    hp = mpatches.Patch(color='green', label='Hydrophillic')
+    plt.legend(handles=[h,hp])
     plt.axis('off')
     plt.title('Score: ' + str(sim.totalDirs[0][0][num]))
     plt.scatter(x,y,c=c,s=100)
@@ -316,6 +320,9 @@ for num in nums:
     # print(x, len(x))
     # print(y, len(y))
     # print(c, len(c))
+    h = mpatches.Patch(color='red', label='Hydrophobic')
+    hp = mpatches.Patch(color='green', label='Hydrophillic')
+    plt.legend(handles=[h,hp])
     plt.axis('off')
     plt.title('Score: ' + str(sim.curr.score[num]))
     plt.scatter(x,y,c=c,s=100)
