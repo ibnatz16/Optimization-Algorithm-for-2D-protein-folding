@@ -59,17 +59,22 @@ class Simulation():
             print('crossover')
         i = 0
         self.children = Generation()
-
+        # count and necc keep track of whether a viable crossover exists
+        count = 0
+        necc = True
         while(i < self.initial):
+            cutoff = random.random()
             # x/y gives indices of parents
             x,y = getRandom(self.initial-1)
+            cutoff_x = cutoff*len(self.curr.dirs[x])
             if DEBUG_3:
+                print('cx', cutoff_x, math.floor(cutoff_x), math.ceil(cutoff_x),'x', len(self.curr.dirs[x]), 'y',len(self.curr.dirs[y]))
                 print(x,y)
             if DEBUG_1:
                 print(len(self.curr.dirs[x])/2, len(self.curr.dirs[y])/2)
             p = self.curr
             # p1_dirs and p2_dirs are the sequence of L/F/R's for the beginning/end of generation at index x/y
-            p1_dirs, p2_dirs = p.dirs[x][:self.fitnessCutoff], p.dirs[y][self.fitnessCutoff:]
+            p1_dirs, p2_dirs = p.dirs[x][:math.floor(cutoff_x)], p.dirs[y][math.ceil(cutoff_x):]
             # get child
             c_dirs = p1_dirs.copy()
             c_dirs.extend(p2_dirs)
@@ -77,6 +82,10 @@ class Simulation():
                 print('c_dir', c_dirs)
             c = getMatrix(c_dirs, len(self.curr.seq))
             if(c == False):
+                count += 1
+                if (count == self.initial*1000):
+                    print('no viable crossover')
+                    necc = False
                 if DEBUG_2:
                     print('returned false', x, y)
                 continue
@@ -93,8 +102,9 @@ class Simulation():
             # print(' y is ', y)
             # print('child score is ', c_sc)
             # print('score matrix is \n ', p.score)
-            if c_sc < p.score[x] or c_sc < p.score[y]:
+            if (c_sc < p.score[x] or c_sc < p.score[y]) and necc:
                 continue
+            necc = True
             # add to pool from which we will select
             self.children.contactPoints.append(c_cp)
             self.children.dirs.append(c_dirs)
@@ -111,7 +121,7 @@ class Simulation():
         self.curr.contactPoints = []
         self.curr.score = []
         average = sum(self.generationScore)/len(self.generationScore)
-        self.totalScore.append([average, max(self.generationScore)])
+        self.totalScore.append(average)
         print('scores:', self.totalScore)
         self.generationScore = []
         for i in range(len(newdirs)):
@@ -228,7 +238,7 @@ sim = Simulation(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4
 sim.initialize()
 c=0
 while(c<sim.iterations):
-    print("iteration", c+1)
+    print("generation", c+1)
     # print(sim.curr.dirs)
     sim.crossOver()
     if DEBUG_3:
@@ -245,7 +255,7 @@ while(c<sim.iterations):
 avgs = []
 iterations = np.linspace(0, int(sys.argv[3]), len(sim.totalScore))
 for i in range(len(sim.totalScore)):
-    avgs.append(sim.totalScore[i][0])
+    avgs.append(sim.totalScore[i])
 # plt.plot(iterations, avgs)
 # plt.show()
 plt.savefig('FitnessVTime.png')
@@ -294,7 +304,7 @@ for num in nums:
     plt.scatter(x,y,c=c,s=100)
     plt.plot(x,y,linestyle='dashed',color='black')
     print('score', sim.totalDirs[0][0][num])
-    plt.savefig(name+str(ax)+'.png')
+    plt.savefig('folding/'+name+str(ax)+'.png')
     plt.show()
     ax += 1
 # get last generation
@@ -328,6 +338,6 @@ for num in nums:
     plt.scatter(x,y,c=c,s=100)
     plt.plot(x,y,linestyle='dashed',color='black')
     print('score', sim.curr.score[num])
-    plt.savefig(name+str(ax)+'.png')
+    plt.savefig('folding/'+name+str(ax)+'.png')
     plt.show()
     ax += 1

@@ -12,7 +12,7 @@ def getAllContacts(folding):
                     print((folding[i][j] != folding[i][j+1].parent), (folding[i][j].parent != folding[i][j+1]))
                 contacts.append([folding[i][j].index, folding[i][j+1].index])
 
-            elif(i != j and i < len(folding) -1 and folding[i][j].direction is not None and folding[i+1][j].direction is not None and ((folding[i][j] != folding[i+1][j].parent) and (folding[i][j].parent != folding[i+1][j]))):
+            if(i != j and i < len(folding) -1 and folding[i][j].direction is not None and folding[i+1][j].direction is not None and ((folding[i][j] != folding[i+1][j].parent) and (folding[i][j].parent != folding[i+1][j]))):
                 if DEBUG_1:
                     print('below', [i, j],[i+1, j], folding[i][j].direction, folding[i+1][j].direction)
                     print((folding[i][j].parent != folding[i+1][j]), (folding[i][j] != folding[i+1][j].parent) )
