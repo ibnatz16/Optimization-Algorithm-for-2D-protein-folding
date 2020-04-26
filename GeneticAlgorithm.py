@@ -94,7 +94,7 @@ class Simulation():
                     print('true',x,y)
             # get contact points c
             c_cp = getAllContacts(c)
-
+            # print('len', len(c_dirs), self.seq, '\ndirs ', c_dirs, '\ncontact points', c_cp)
             # get score c
             c_sc = findFitnessScore(c_cp, self.curr.seq)
             # check that childs score is less than both of the parents
@@ -276,7 +276,7 @@ proteins =	{"A" : "H",    "C" : "H",    "I" : "H",
     "E" : "P",    "G" : "P",
     "H" : "P",    "K" : "P",    "S" : "P",    "T" : "P" }
 # get x and y from matrix
-print('first:')
+print('First Generation:')
 for num in nums:
     x = []
     y = []
@@ -296,21 +296,24 @@ for num in nums:
     # print(x, len(x))
     # print(y, len(y))
     # print(c, len(c))
+    mm = getMatrix(sim.totalDirs[0][1][num], sim.seq)
+    cp = getAllContacts(mm)
+    fs = findFitnessScore(cp, sim.curr.seq)
     h = mpatches.Patch(color='red', label='Hydrophobic')
     hp = mpatches.Patch(color='green', label='Hydrophillic')
     plt.legend(handles=[h,hp])
     plt.axis('off')
-    plt.title('Score: ' + str(sim.totalDirs[0][0][num]))
+    plt.title('Score: ' + str(fs))
     plt.scatter(x,y,c=c,s=100)
     plt.plot(x,y,linestyle='dashed',color='black')
-    print('score', sim.totalDirs[0][0][num])
-    plt.savefig('folding/'+name+str(ax)+'.png')
+    print(sys.argv[1]+name+str(ax)+'.png score:', fs)
+    plt.savefig('folding/'+sys.argv[1]+"_intial_"+sys.argv[2]+"_"+sys.argv[3]+"_"+sys.argv[4]+"_"+sys.argv[5]+"_"+sys.argv[6]+"_"+str(ax)+'.png')
     plt.show()
     ax += 1
 # get last generation
 name = 'folding_final_'
 ax = 0
-print('final:')
+print('Last Generation:')
 for num in nums:
     x = []
     y = []
@@ -330,14 +333,17 @@ for num in nums:
     # print(x, len(x))
     # print(y, len(y))
     # print(c, len(c))
+    mm_1 = getMatrix(sim.curr.dirs[num], sim.seq)
+    cp_1 = getAllContacts(mm_1)
+    fs_1 = findFitnessScore(cp_1, sim.curr.seq)
     h = mpatches.Patch(color='red', label='Hydrophobic')
     hp = mpatches.Patch(color='green', label='Hydrophillic')
     plt.legend(handles=[h,hp])
     plt.axis('off')
-    plt.title('Score: ' + str(sim.curr.score[num]))
+    plt.title('Score: ' + str(fs_1))
     plt.scatter(x,y,c=c,s=100)
     plt.plot(x,y,linestyle='dashed',color='black')
-    print('score', sim.curr.score[num])
-    plt.savefig('folding/'+name+str(ax)+'.png')
+    print(sys.argv[1]+name+str(ax)+'.png score:', fs_1)
+    plt.savefig('folding/'+sys.argv[1]+"_final_"+sys.argv[2]+"_"+sys.argv[3]+"_"+sys.argv[4]+"_"+sys.argv[5]+"_"+sys.argv[6]+"_"+str(ax)+'.png')
     plt.show()
     ax += 1

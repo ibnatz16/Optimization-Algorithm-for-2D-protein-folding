@@ -1,1480 +1,7915 @@
 generation 1
-cx 60.871619169467266 60 61 x 81 y 81
-len c_dirs 80
-cx 6.9507494050982475 6 7 x 81 y 81
-len c_dirs 80
-cx 15.381070378230158 15 16 x 81 y 81
-len c_dirs 80
-cx 53.2513945985604 53 54 x 81 y 81
-len c_dirs 80
-cx 37.05864976917848 37 38 x 82 y 82
-len c_dirs 81
-cx 6.417228777381633 6 7 x 81 y 81
-len c_dirs 80
-cx 2.6955408967096397 2 3 x 81 y 82
-len c_dirs 81
-cx 12.025096538234077 12 13 x 81 y 81
-len c_dirs 80
-cx 3.5651470832244816 3 4 x 81 y 81
-len c_dirs 80
-cx 43.1200294677914 43 44 x 82 y 81
-len c_dirs 80
-cx 45.71459578319563 45 46 x 81 y 81
-len c_dirs 80
-cx 43.48605814064316 43 44 x 81 y 81
-len c_dirs 80
-cx 10.118111052776966 10 11 x 81 y 81
-len c_dirs 80
-cx 3.2665845288161304 3 4 x 82 y 81
-len c_dirs 80
-cx 24.87443604256111 24 25 x 81 y 81
-len c_dirs 80
-cx 8.714615437788336 8 9 x 82 y 81
-len c_dirs 80
-cx 19.429434022949316 19 20 x 82 y 81
-len c_dirs 80
-cx 38.64015249208492 38 39 x 82 y 82
-len c_dirs 81
-cx 76.15432296474997 76 77 x 81 y 82
-len c_dirs 81
-cx 47.36006015909733 47 48 x 81 y 82
-len c_dirs 81
-newdirs 10 olddirs 20
-scores: [[2.95, 6]]
+len 10 11 
+dirs  ['L', 'F', 'F', 'F', 'L', 'L', 'R', 'F', 'R', 'R'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'L', 'F', 'R', 'F', 'R', 'F', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'L', 'R', 'F', 'L', 'L', 'R', 'F', 'R', 'R'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['F', 'L', 'R', 'F', 'F', 'L', 'F', 'F', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'L', 'F', 'L', 'R', 'F', 'F', 'R', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'L', 'F', 'L', 'L', 'R', 'F', 'R', 'R'] 
+contact points [[5, 0]]
+len 10 11 
+dirs  ['F', 'R', 'F', 'F', 'F', 'R', 'R', 'L', 'F', 'R'] 
+contact points [[6, 3]]
+len 9 11 
+dirs  ['L', 'F', 'R', 'L', 'R', 'F', 'F', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'F', 'F', 'L', 'R', 'R', 'F', 'F', 'L'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['F', 'R', 'L', 'R', 'F', 'F', 'F', 'F', 'F', 'L'] 
+contact points []
+len 10 11 
+dirs  ['F', 'F', 'R', 'L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'F', 'R', 'L', 'R', 'R', 'L', 'F', 'L'] 
+contact points [[3, 6]]
+len 10 11 
+dirs  ['F', 'L', 'F', 'L', 'F', 'R', 'R', 'F', 'F', 'L'] 
+contact points [[6, 3], [7, 2]]
+len 9 11 
+dirs  ['F', 'R', 'L', 'L', 'R', 'L', 'R', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'L', 'F', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[6, 3], [8, 5]]
+len 10 11 
+dirs  ['L', 'F', 'F', 'L', 'R', 'R', 'F', 'F', 'L', 'F'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['L', 'F', 'R', 'L', 'L', 'F', 'F', 'F', 'F', 'L'] 
+contact points [[1, 4]]
+len 10 11 
+dirs  ['L', 'L', 'L', 'R', 'R', 'F', 'F', 'L', 'F', 'F'] 
+contact points [[4, 1]]
+len 10 11 
+dirs  ['R', 'R', 'R', 'F', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'F', 'L', 'F', 'R', 'F', 'F', 'R', 'L'] 
+contact points []
+scores: [0.0]
 generation 2
-cx 74.79297044769994 74 75 x 81 y 82
-len c_dirs 81
-cx 14.45951596985858 14 15 x 80 y 81
-len c_dirs 80
-cx 1.213047986229453 1 2 x 81 y 80
-len c_dirs 79
-cx 55.56669798598651 55 56 x 80 y 81
-len c_dirs 80
-cx 40.408458961042896 40 41 x 81 y 80
-len c_dirs 79
-cx 9.777461253488168 9 10 x 81 y 80
-len c_dirs 79
-cx 23.400629498562253 23 24 x 80 y 80
-len c_dirs 79
-cx 41.97013291170653 41 42 x 81 y 81
-len c_dirs 80
-cx 5.660584231352699 5 6 x 80 y 81
-len c_dirs 80
-cx 48.67540797334846 48 49 x 80 y 81
-len c_dirs 80
-cx 49.6614545061413 49 50 x 81 y 81
-len c_dirs 80
-cx 75.58144945337258 75 76 x 80 y 82
-len c_dirs 81
-cx 79.03262428665423 79 80 x 81 y 80
-len c_dirs 79
-cx 51.8260407272309 51 52 x 81 y 82
-len c_dirs 81
-cx 34.7993752725182 34 35 x 80 y 81
-len c_dirs 80
-cx 17.881987095669103 17 18 x 80 y 81
-len c_dirs 80
-cx 33.97406837264392 33 34 x 80 y 81
-len c_dirs 80
-cx 32.766751829987996 32 33 x 81 y 80
-len c_dirs 79
-cx 26.556635301715225 26 27 x 80 y 81
-len c_dirs 80
-cx 59.9259777768301 59 60 x 82 y 80
-len c_dirs 79
-cx 38.950030780594965 38 39 x 80 y 80
-len c_dirs 79
-cx 36.99444204769827 36 37 x 81 y 82
-len c_dirs 81
-cx 16.414756025134007 16 17 x 80 y 81
-len c_dirs 80
-cx 54.72200876865858 54 55 x 81 y 82
-len c_dirs 81
-cx 79.10740207206078 79 80 x 80 y 81
-len c_dirs 80
-cx 42.49461859522328 42 43 x 80 y 80
-len c_dirs 79
-cx 47.851436014730425 47 48 x 80 y 80
-len c_dirs 79
-cx 7.6397966748405395 7 8 x 81 y 80
-len c_dirs 79
-cx 74.61416344593083 74 75 x 81 y 81
-len c_dirs 80
-cx 76.00156122232718 76 77 x 80 y 81
-len c_dirs 80
-cx 66.32990301259122 66 67 x 81 y 80
-len c_dirs 79
-cx 12.794417740870646 12 13 x 81 y 82
-len c_dirs 81
-cx 10.343327504798436 10 11 x 81 y 81
-len c_dirs 80
-cx 65.90081750110014 65 66 x 81 y 80
-len c_dirs 79
-cx 28.787638378265985 28 29 x 81 y 81
-len c_dirs 80
-cx 65.55366162173702 65 66 x 80 y 81
-len c_dirs 80
-cx 68.67406354216295 68 69 x 80 y 81
-len c_dirs 80
-cx 24.288765758396792 24 25 x 81 y 81
-len c_dirs 80
-cx 64.95411331776103 64 65 x 81 y 81
-len c_dirs 80
-cx 25.12887197299344 25 26 x 80 y 80
-len c_dirs 79
-cx 50.358705805169464 50 51 x 82 y 81
-len c_dirs 80
-cx 12.896959024667813 12 13 x 80 y 81
-len c_dirs 80
-cx 22.76202280050354 22 23 x 80 y 81
-len c_dirs 80
-cx 10.331917210896485 10 11 x 81 y 81
-len c_dirs 80
-cx 62.652178498033095 62 63 x 81 y 82
-len c_dirs 81
-cx 16.89432448804293 16 17 x 81 y 81
-len c_dirs 80
-cx 5.594496657097246 5 6 x 81 y 80
-len c_dirs 79
-cx 45.210027978669814 45 46 x 81 y 80
-len c_dirs 79
-cx 72.2358651178491 72 73 x 82 y 81
-len c_dirs 80
-cx 1.9496856500367699 1 2 x 80 y 80
-len c_dirs 79
-cx 25.430186336432374 25 26 x 81 y 81
-len c_dirs 80
-cx 0.1973171299649581 0 1 x 81 y 81
-len c_dirs 80
-cx 12.529402827793216 12 13 x 81 y 80
-len c_dirs 79
-cx 43.854544115642966 43 44 x 80 y 81
-len c_dirs 80
-cx 72.19804588570861 72 73 x 81 y 81
-len c_dirs 80
-cx 65.68566869039266 65 66 x 81 y 81
-len c_dirs 80
-cx 32.47173210495508 32 33 x 80 y 81
-len c_dirs 80
-cx 23.872467903295806 23 24 x 81 y 82
-len c_dirs 81
-cx 69.84527528464865 69 70 x 81 y 81
-len c_dirs 80
-cx 57.1988945686914 57 58 x 80 y 81
-len c_dirs 80
-cx 50.83589284872406 50 51 x 82 y 81
-len c_dirs 80
-cx 12.788838977424966 12 13 x 81 y 81
-len c_dirs 80
-cx 24.849102687362016 24 25 x 81 y 81
-len c_dirs 80
-cx 44.36880203947917 44 45 x 81 y 82
-len c_dirs 81
-cx 15.330773663068742 15 16 x 80 y 81
-len c_dirs 80
-cx 39.46886339939361 39 40 x 80 y 81
-len c_dirs 80
-cx 70.33517045504608 70 71 x 81 y 81
-len c_dirs 80
-cx 53.87493951931124 53 54 x 80 y 81
-len c_dirs 80
-cx 4.195367717405967 4 5 x 80 y 81
-len c_dirs 80
-cx 31.902749364146924 31 32 x 81 y 81
-len c_dirs 80
-cx 72.32801786206144 72 73 x 81 y 80
-len c_dirs 79
-cx 32.70084500209636 32 33 x 81 y 81
-len c_dirs 80
-cx 55.49847150425137 55 56 x 80 y 81
-len c_dirs 80
-cx 0.2568073334971732 0 1 x 80 y 80
-len c_dirs 79
-cx 47.8705443228648 47 48 x 82 y 80
-len c_dirs 79
-cx 64.01175739093557 64 65 x 81 y 81
-len c_dirs 80
-cx 37.06261752244672 37 38 x 81 y 81
-len c_dirs 80
-cx 29.73247968296045 29 30 x 81 y 81
-len c_dirs 80
-cx 37.58315157611145 37 38 x 80 y 82
-len c_dirs 81
-cx 7.575457963053848 7 8 x 81 y 80
-len c_dirs 79
-cx 79.13612270335669 79 80 x 81 y 81
-len c_dirs 80
-cx 6.263203552890735 6 7 x 80 y 81
-len c_dirs 80
-cx 12.984661128501509 12 13 x 80 y 80
-len c_dirs 79
-cx 22.13841585051158 22 23 x 80 y 80
-len c_dirs 79
-newdirs 10 olddirs 20
-scores: [[2.95, 6], [4.2, 6]]
+len 10 11 
+dirs  ['L', 'L', 'R', 'L', 'F', 'R', 'F', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'R', 'R', 'F', 'F', 'L', 'F', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'L', 'F', 'L', 'F', 'R', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['F', 'L', 'L', 'F', 'F', 'R', 'L', 'L', 'R', 'F'] 
+contact points [[7, 4]]
+len 10 11 
+dirs  ['F', 'L', 'F', 'R', 'L', 'L', 'F', 'L', 'F', 'F'] 
+contact points [[7, 2], [5, 2]]
+len 10 11 
+dirs  ['R', 'R', 'R', 'F', 'R', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[6, 3]]
+len 10 11 
+dirs  ['L', 'F', 'F', 'R', 'L', 'R', 'R', 'F', 'L', 'L'] 
+contact points [[3, 6]]
+len 10 11 
+dirs  ['F', 'R', 'F', 'F', 'F', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'F', 'F', 'F', 'R', 'R', 'L', 'R', 'L'] 
+contact points [[6, 3]]
+len 10 11 
+dirs  ['L', 'F', 'F', 'R', 'L', 'F', 'F', 'F', 'F', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'R', 'L', 'F', 'L', 'F', 'F', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'F', 'L', 'R', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[6, 3], [8, 5]]
+len 10 11 
+dirs  ['R', 'R', 'L', 'F', 'R', 'L', 'F', 'R', 'F', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'L', 'F', 'F', 'L', 'R', 'R', 'F', 'L', 'R'] 
+contact points [[6, 3]]
+len 9 11 
+dirs  ['F', 'L', 'F', 'R', 'L', 'L', 'F', 'R', 'R'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['F', 'F', 'L', 'R', 'R', 'F', 'F', 'L', 'F', 'F'] 
+contact points [[1, 4]]
+len 10 11 
+dirs  ['R', 'R', 'R', 'F', 'L', 'F', 'R', 'F', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'L', 'R', 'F', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'R', 'L', 'L', 'F', 'F', 'F', 'F', 'L'] 
+contact points [[1, 4]]
+len 10 11 
+dirs  ['R', 'L', 'L', 'F', 'L', 'R', 'F', 'F', 'R', 'F'] 
+contact points []
+scores: [0.0, 0.0]
 generation 3
-cx 54.52948712075713 54 55 x 81 y 80
-len c_dirs 79
-cx 53.755289935637194 53 54 x 80 y 81
-len c_dirs 80
-cx 37.813967954895006 37 38 x 81 y 80
-len c_dirs 79
-cx 29.867780148296788 29 30 x 80 y 81
-len c_dirs 80
-cx 12.395278136222057 12 13 x 81 y 80
-len c_dirs 79
-cx 80.93535491293602 80 81 x 81 y 80
-len c_dirs 80
-cx 24.67505020653619 24 25 x 81 y 81
-len c_dirs 80
-cx 32.55129227963679 32 33 x 81 y 81
-len c_dirs 80
-cx 67.90138221679209 67 68 x 79 y 81
-len c_dirs 80
-cx 50.13255118760321 50 51 x 81 y 80
-len c_dirs 79
-cx 32.98402032237465 32 33 x 80 y 81
-len c_dirs 80
-cx 22.79981651691138 22 23 x 81 y 81
-len c_dirs 80
-cx 9.040222601714925 9 10 x 81 y 80
-len c_dirs 79
-cx 11.466744302853433 11 12 x 80 y 81
-len c_dirs 80
-cx 38.06517238083778 38 39 x 80 y 81
-len c_dirs 80
-cx 39.17204659367923 39 40 x 80 y 80
-len c_dirs 79
-cx 71.50409885788214 71 72 x 80 y 80
-len c_dirs 79
-cx 0.7495226581371446 0 1 x 81 y 81
-len c_dirs 80
-cx 46.02041149043286 46 47 x 81 y 80
-len c_dirs 79
-cx 53.832579990797704 53 54 x 79 y 81
-len c_dirs 80
-cx 62.773580671444456 62 63 x 81 y 79
-len c_dirs 78
-cx 65.6868045424733 65 66 x 80 y 80
-len c_dirs 79
-cx 27.05457730477505 27 28 x 80 y 81
-len c_dirs 80
-cx 27.560043447912577 27 28 x 80 y 81
-len c_dirs 80
-cx 47.31730800719515 47 48 x 80 y 81
-len c_dirs 80
-cx 8.823630931207136 8 9 x 81 y 80
-len c_dirs 79
-cx 36.241189263000166 36 37 x 80 y 80
-len c_dirs 79
-cx 57.242669570739835 57 58 x 79 y 80
-len c_dirs 79
-cx 63.04304253202028 63 64 x 80 y 80
-len c_dirs 79
-cx 76.73527114471779 76 77 x 80 y 79
-len c_dirs 78
-cx 18.53374786734804 18 19 x 81 y 80
-len c_dirs 79
-cx 75.08821299101538 75 76 x 81 y 80
-len c_dirs 79
-cx 72.45470189215331 72 73 x 80 y 80
-len c_dirs 79
-cx 12.947061816701435 12 13 x 80 y 80
-len c_dirs 79
-cx 70.63999776905125 70 71 x 80 y 79
-len c_dirs 78
-cx 0.9751594017155529 0 1 x 80 y 80
-len c_dirs 79
-cx 0.6693846344216752 0 1 x 81 y 80
-len c_dirs 79
-cx 68.17939974028305 68 69 x 80 y 81
-len c_dirs 80
-cx 70.56313103104307 70 71 x 79 y 80
-len c_dirs 79
-cx 64.90347686745332 64 65 x 81 y 81
-len c_dirs 80
-cx 52.50551055472872 52 53 x 81 y 81
-len c_dirs 80
-cx 23.108856777814914 23 24 x 80 y 81
-len c_dirs 80
-cx 25.35247860214536 25 26 x 81 y 80
-len c_dirs 79
-cx 80.30710077597377 80 81 x 81 y 80
-len c_dirs 80
-cx 34.2423543589486 34 35 x 80 y 81
-len c_dirs 80
-cx 41.958401493675545 41 42 x 80 y 81
-len c_dirs 80
-cx 62.930466830068966 62 63 x 81 y 81
-len c_dirs 80
-cx 63.56710442808482 63 64 x 79 y 81
-len c_dirs 80
-cx 50.237151422724146 50 51 x 80 y 81
-len c_dirs 80
-cx 56.14903361878484 56 57 x 81 y 80
-len c_dirs 79
-cx 71.1557671026154 71 72 x 81 y 79
-len c_dirs 78
-cx 68.25926599382969 68 69 x 80 y 80
-len c_dirs 79
-cx 62.1611379663958 62 63 x 80 y 81
-len c_dirs 80
-cx 74.11447536997416 74 75 x 81 y 79
-len c_dirs 78
-cx 65.11607405936688 65 66 x 80 y 80
-len c_dirs 79
-cx 40.099716810574975 40 41 x 81 y 80
-len c_dirs 79
-cx 51.7088053263935 51 52 x 81 y 81
-len c_dirs 80
-cx 52.24561426315397 52 53 x 80 y 80
-len c_dirs 79
-cx 80.50534696313906 80 81 x 81 y 80
-len c_dirs 80
-cx 32.9297624218965 32 33 x 81 y 80
-len c_dirs 79
-cx 35.88890423653201 35 36 x 80 y 81
-len c_dirs 80
-cx 46.77642404685583 46 47 x 81 y 81
-len c_dirs 80
-cx 44.33855822820968 44 45 x 80 y 81
-len c_dirs 80
-cx 19.16182040528868 19 20 x 81 y 80
-len c_dirs 79
-cx 61.665072906563516 61 62 x 81 y 80
-len c_dirs 79
-cx 48.47978319188517 48 49 x 80 y 81
-len c_dirs 80
-cx 17.348624819862415 17 18 x 81 y 80
-len c_dirs 79
-cx 5.3557276665603215 5 6 x 80 y 79
-len c_dirs 78
-cx 10.089307476986662 10 11 x 81 y 81
-len c_dirs 80
-cx 78.46278697264408 78 79 x 80 y 81
-len c_dirs 80
-cx 19.630532435600053 19 20 x 80 y 81
-len c_dirs 80
-cx 28.0467160589394 28 29 x 79 y 81
-len c_dirs 80
-cx 21.458079495343398 21 22 x 80 y 80
-len c_dirs 79
-cx 72.73588302272596 72 73 x 81 y 79
-len c_dirs 78
-newdirs 10 olddirs 20
-scores: [[2.95, 6], [4.2, 6], [5.4, 7]]
+len 9 11 
+dirs  ['L', 'L', 'F', 'L', 'R', 'F', 'F', 'R', 'R'] 
+contact points []
+len 10 11 
+dirs  ['F', 'L', 'L', 'F', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 8], [3, 6]]
+len 10 11 
+dirs  ['R', 'L', 'R', 'L', 'F', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[7, 4]]
+len 10 11 
+dirs  ['R', 'R', 'L', 'F', 'R', 'L', 'R', 'F', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['F', 'L', 'F', 'L', 'R', 'F', 'F', 'R', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'L', 'F', 'F', 'L', 'R', 'R', 'F', 'L', 'R'] 
+contact points [[6, 3]]
+len 10 11 
+dirs  ['R', 'F', 'R', 'F', 'L', 'L', 'R', 'F', 'R', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'L', 'F', 'F', 'L', 'R', 'R', 'F', 'L', 'R'] 
+contact points [[6, 3]]
+len 10 11 
+dirs  ['R', 'R', 'L', 'F', 'R', 'L', 'F', 'L', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6], [1, 6], [1, 8]]
+len 10 11 
+dirs  ['F', 'R', 'F', 'F', 'L', 'F', 'F', 'F', 'F', 'L'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'R', 'F', 'F', 'L', 'F', 'F', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'L', 'F', 'R', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'L', 'F', 'L', 'R', 'F', 'L', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['F', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 10 11 
+dirs  ['F', 'L', 'L', 'R', 'L', 'F', 'F', 'L', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['F', 'F', 'R', 'F', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[3, 6]]
+len 10 11 
+dirs  ['F', 'L', 'R', 'F', 'L', 'F', 'L', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['F', 'L', 'R', 'F', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'R', 'L', 'F', 'R', 'F', 'F', 'R', 'L'] 
+contact points []
+scores: [0.0, 0.0, 0.025]
 generation 4
-cx 52.146504023999626 52 53 x 80 y 79
-len c_dirs 78
-cx 61.52267158837694 61 62 x 80 y 80
-len c_dirs 79
-cx 29.707026170275928 29 30 x 80 y 80
-len c_dirs 79
-cx 74.99262017799416 74 75 x 81 y 80
-len c_dirs 79
-cx 55.54940382652568 55 56 x 80 y 80
-len c_dirs 79
-cx 20.42083859960435 20 21 x 80 y 80
-len c_dirs 79
-cx 8.830715775947109 8 9 x 80 y 78
-len c_dirs 77
-cx 5.893414051440059 5 6 x 81 y 80
-len c_dirs 79
-cx 7.7471689270944655 7 8 x 80 y 78
-len c_dirs 77
-cx 60.87612058986403 60 61 x 80 y 80
-len c_dirs 79
-cx 5.803534279014189 5 6 x 80 y 81
-len c_dirs 80
-cx 30.905281593951422 30 31 x 80 y 80
-len c_dirs 79
-cx 50.21742883116252 50 51 x 81 y 80
-len c_dirs 79
-cx 10.770504818929103 10 11 x 80 y 78
-len c_dirs 77
-cx 28.92502596059055 28 29 x 80 y 79
-len c_dirs 78
-cx 42.38368469248912 42 43 x 81 y 80
-len c_dirs 79
-cx 65.10683824374277 65 66 x 81 y 80
-len c_dirs 79
-cx 30.23760396135068 30 31 x 81 y 80
-len c_dirs 79
-cx 59.699820303743145 59 60 x 80 y 80
-len c_dirs 79
-cx 19.6749595986605 19 20 x 80 y 81
-len c_dirs 80
-cx 63.7126335156104 63 64 x 80 y 81
-len c_dirs 80
-cx 32.057122083748965 32 33 x 80 y 78
-len c_dirs 77
-cx 43.90387373226184 43 44 x 80 y 80
-len c_dirs 79
-cx 58.72600252252827 58 59 x 78 y 80
-len c_dirs 79
-cx 61.077788950129595 61 62 x 81 y 79
-len c_dirs 78
-cx 30.52253269114122 30 31 x 79 y 81
-len c_dirs 80
-cx 46.79935731289969 46 47 x 80 y 80
-len c_dirs 79
-cx 27.65775776695424 27 28 x 80 y 80
-len c_dirs 79
-cx 21.504437990642746 21 22 x 78 y 80
-len c_dirs 79
-cx 67.64694846535113 67 68 x 80 y 80
-len c_dirs 79
-cx 16.927062191213658 16 17 x 80 y 80
-len c_dirs 79
-cx 56.36238622094732 56 57 x 79 y 80
-len c_dirs 79
-cx 63.74977469920321 63 64 x 80 y 80
-len c_dirs 79
-cx 58.9826901525867 58 59 x 80 y 79
-len c_dirs 78
-cx 58.30996490185948 58 59 x 81 y 81
-len c_dirs 80
-cx 2.1971134726440424 2 3 x 81 y 80
-len c_dirs 79
-cx 58.883831137276815 58 59 x 80 y 81
-len c_dirs 80
-cx 44.20321467994957 44 45 x 79 y 81
-len c_dirs 80
-cx 1.4373471257346981 1 2 x 80 y 78
-len c_dirs 77
-cx 37.419336148619706 37 38 x 80 y 81
-len c_dirs 80
-cx 29.45842239598413 29 30 x 81 y 80
-len c_dirs 79
-cx 79.4940386147812 79 80 x 80 y 80
-len c_dirs 79
-cx 24.118785948953636 24 25 x 80 y 80
-len c_dirs 79
-cx 49.116846131887044 49 50 x 80 y 80
-len c_dirs 79
-cx 79.94914684122551 79 80 x 80 y 78
-len c_dirs 79
-cx 7.161708230065065 7 8 x 80 y 78
-len c_dirs 77
-cx 76.30443623114081 76 77 x 80 y 81
-len c_dirs 80
-cx 64.50892210612992 64 65 x 80 y 78
-len c_dirs 77
-cx 28.16968494772975 28 29 x 80 y 79
-len c_dirs 78
-cx 16.433316564685196 16 17 x 81 y 80
-len c_dirs 79
-cx 56.26402327814393 56 57 x 80 y 80
-len c_dirs 79
-cx 9.210159487669696 9 10 x 80 y 81
-len c_dirs 80
-cx 2.471254421920337 2 3 x 80 y 80
-len c_dirs 79
-cx 56.37148405768027 56 57 x 80 y 80
-len c_dirs 79
-cx 18.756114767291308 18 19 x 81 y 80
-len c_dirs 79
-cx 21.567525693796476 21 22 x 80 y 80
-len c_dirs 79
-cx 25.4972301456761 25 26 x 79 y 80
-len c_dirs 79
-cx 2.115363780721875 2 3 x 80 y 81
-len c_dirs 80
-cx 24.31368017928636 24 25 x 78 y 80
-len c_dirs 79
-cx 13.29955058706103 13 14 x 80 y 81
-len c_dirs 80
-cx 69.09099727699231 69 70 x 80 y 80
-len c_dirs 79
-cx 2.177275558723819 2 3 x 80 y 80
-len c_dirs 79
-cx 17.14812440206751 17 18 x 79 y 78
-len c_dirs 77
-cx 4.703376315743872 4 5 x 80 y 81
-len c_dirs 80
-cx 4.9219741502115255 4 5 x 80 y 81
-len c_dirs 80
-cx 48.012288399195455 48 49 x 78 y 81
-len c_dirs 80
-cx 26.938714651794857 26 27 x 80 y 79
-len c_dirs 78
-cx 80.40704246546733 80 81 x 81 y 79
-len c_dirs 80
-cx 52.233992975493535 52 53 x 81 y 80
-len c_dirs 79
-cx 53.369650492981606 53 54 x 80 y 78
-len c_dirs 77
-cx 15.018501946725506 15 16 x 78 y 79
-len c_dirs 78
-cx 20.947848019891442 20 21 x 81 y 81
-len c_dirs 80
-cx 28.92388119206703 28 29 x 78 y 80
-len c_dirs 79
-cx 39.30866316753694 39 40 x 80 y 80
-len c_dirs 79
-cx 67.06210026984265 67 68 x 80 y 79
-len c_dirs 78
-cx 16.96947126791507 16 17 x 79 y 80
-len c_dirs 79
-cx 74.26924113382707 74 75 x 80 y 78
-len c_dirs 77
-cx 44.25365426460828 44 45 x 79 y 80
-len c_dirs 79
-cx 7.801941914643509 7 8 x 80 y 80
-len c_dirs 79
-cx 75.18058524634306 75 76 x 80 y 79
-len c_dirs 78
-cx 64.73218730624191 64 65 x 80 y 80
-len c_dirs 79
-cx 18.78808253954719 18 19 x 81 y 80
-len c_dirs 79
-cx 53.91425469406956 53 54 x 81 y 80
-len c_dirs 79
-cx 73.55017862092765 73 74 x 81 y 78
-len c_dirs 77
-cx 47.58776701123629 47 48 x 80 y 81
-len c_dirs 80
-cx 48.61429091781912 48 49 x 80 y 80
-len c_dirs 79
-cx 35.39522927248656 35 36 x 80 y 81
-len c_dirs 80
-cx 50.84250648320407 50 51 x 80 y 78
-len c_dirs 77
-cx 9.54177669531087 9 10 x 80 y 80
-len c_dirs 79
-cx 10.494040650952954 10 11 x 80 y 78
-len c_dirs 77
-cx 16.44367688341149 16 17 x 80 y 81
-len c_dirs 80
-cx 68.63043273077537 68 69 x 79 y 81
-len c_dirs 80
-cx 46.45194468667366 46 47 x 80 y 80
-len c_dirs 79
-cx 77.59688020500862 77 78 x 80 y 80
-len c_dirs 79
-cx 41.159272076942145 41 42 x 80 y 78
-len c_dirs 77
-cx 54.2210064277525 54 55 x 81 y 80
-len c_dirs 79
-cx 76.09706479030675 76 77 x 80 y 78
-len c_dirs 77
-cx 33.21204283283231 33 34 x 80 y 80
-len c_dirs 79
-cx 69.01946001462588 69 70 x 80 y 81
-len c_dirs 80
-cx 45.999441818367444 45 46 x 80 y 80
-len c_dirs 79
-cx 23.42412847911154 23 24 x 79 y 80
-len c_dirs 79
-cx 62.44837211766617 62 63 x 80 y 80
-len c_dirs 79
-cx 68.20968724144038 68 69 x 78 y 81
-len c_dirs 80
-cx 17.392997935005447 17 18 x 81 y 80
-len c_dirs 79
-cx 12.421517754207395 12 13 x 78 y 80
-len c_dirs 79
-cx 16.60565304094547 16 17 x 80 y 80
-len c_dirs 79
-cx 20.126137481090367 20 21 x 80 y 81
-len c_dirs 80
-cx 34.84654375143698 34 35 x 80 y 81
-len c_dirs 80
-newdirs 10 olddirs 20
-scores: [[2.95, 6], [4.2, 6], [5.4, 7], [5.9, 7]]
+len 10 11 
+dirs  ['L', 'F', 'R', 'L', 'L', 'F', 'F', 'F', 'F', 'L'] 
+contact points [[1, 4]]
+len 10 11 
+dirs  ['F', 'L', 'R', 'F', 'L', 'F', 'L', 'F', 'L', 'R'] 
+contact points [[8, 1]]
+len 10 11 
+dirs  ['L', 'L', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'L'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'L', 'L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 10 11 
+dirs  ['F', 'L', 'L', 'R', 'L', 'F', 'R', 'F', 'R', 'R'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'L', 'R', 'F', 'F', 'L', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'L', 'F', 'R', 'F', 'R', 'L', 'L', 'R', 'F'] 
+contact points [[4, 7]]
+len 10 11 
+dirs  ['F', 'L', 'L', 'F', 'F', 'L', 'R', 'R', 'F', 'L'] 
+contact points [[7, 4]]
+len 10 11 
+dirs  ['L', 'F', 'R', 'R', 'F', 'F', 'F', 'L', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['F', 'L', 'R', 'F', 'F', 'L', 'R', 'F', 'L', 'L'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'R', 'R', 'F', 'L', 'F', 'R', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'R', 'R', 'F', 'L', 'F', 'R', 'R', 'F', 'F'] 
+contact points [[8, 3], [7, 4]]
+len 9 11 
+dirs  ['F', 'R', 'L', 'L', 'R', 'L', 'R', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'R', 'F', 'F', 'L', 'F', 'F', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['F', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'F', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[3, 6]]
+len 10 11 
+dirs  ['F', 'R', 'F', 'F', 'F', 'R', 'R', 'L', 'F', 'R'] 
+contact points [[6, 3]]
+len 10 11 
+dirs  ['F', 'R', 'L', 'F', 'L', 'F', 'R', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['F', 'L', 'R', 'F', 'L', 'F', 'L', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'L', 'F', 'R', 'F', 'R', 'L'] 
+contact points [[1, 4]]
+len 10 11 
+dirs  ['L', 'F', 'F', 'R', 'L', 'R', 'R', 'L', 'L', 'R'] 
+contact points [[3, 6], [5, 8]]
+scores: [0.0, 0.0, 0.025, 0.025]
 generation 5
-cx 9.064589462546602 9 10 x 80 y 78
-len c_dirs 77
-cx 78.71446350873036 78 79 x 79 y 79
-len c_dirs 78
-cx 33.10264533438374 33 34 x 79 y 81
-len c_dirs 80
-cx 0.5008770809664753 0 1 x 80 y 80
-len c_dirs 79
-cx 4.454463657486576 4 5 x 80 y 80
-len c_dirs 79
-cx 74.42416086152703 74 75 x 81 y 80
-len c_dirs 79
-cx 29.384376900326828 29 30 x 79 y 80
-len c_dirs 79
-cx 67.34995416221975 67 68 x 79 y 81
-len c_dirs 80
-cx 49.86530766859854 49 50 x 80 y 80
-len c_dirs 79
-cx 72.8272931947665 72 73 x 80 y 80
-len c_dirs 79
-cx 70.76396488521719 70 71 x 79 y 80
-len c_dirs 79
-cx 35.58501846769517 35 36 x 80 y 80
-len c_dirs 79
-cx 57.37880562338505 57 58 x 80 y 79
-len c_dirs 78
-cx 76.2669019128318 76 77 x 80 y 80
-len c_dirs 79
-cx 32.42158583704392 32 33 x 80 y 80
-len c_dirs 79
-cx 78.51818584083725 78 79 x 79 y 78
-len c_dirs 78
-cx 37.55776490637199 37 38 x 80 y 80
-len c_dirs 79
-cx 76.58511063660187 76 77 x 80 y 78
-len c_dirs 77
-cx 52.99528371749541 52 53 x 80 y 80
-len c_dirs 79
-cx 8.69253542106625 8 9 x 80 y 77
-len c_dirs 76
-cx 30.78098688686253 30 31 x 80 y 79
-len c_dirs 78
-cx 20.85987967480465 20 21 x 80 y 80
-len c_dirs 79
-cx 75.10667388018237 75 76 x 80 y 81
-len c_dirs 80
-cx 31.82571060609969 31 32 x 80 y 80
-len c_dirs 79
-cx 67.40549512818546 67 68 x 80 y 78
-len c_dirs 77
-cx 16.670898820316012 16 17 x 80 y 80
-len c_dirs 79
-cx 45.10760913637581 45 46 x 79 y 81
-len c_dirs 80
-cx 42.39274823831265 42 43 x 81 y 80
-len c_dirs 79
-cx 32.51289458746972 32 33 x 80 y 77
-len c_dirs 76
-cx 73.81900345443873 73 74 x 78 y 81
-len c_dirs 80
-cx 58.023519040523546 58 59 x 79 y 80
-len c_dirs 79
-cx 42.75924266493501 42 43 x 80 y 80
-len c_dirs 79
-cx 60.432291789012204 60 61 x 78 y 77
-len c_dirs 76
-cx 41.79555978513405 41 42 x 80 y 79
-len c_dirs 78
-cx 14.682343647594625 14 15 x 80 y 78
-len c_dirs 77
-cx 26.948809382753566 26 27 x 80 y 80
-len c_dirs 79
-cx 25.468069340013137 25 26 x 80 y 79
-len c_dirs 78
-cx 47.955874834882934 47 48 x 80 y 81
-len c_dirs 80
-cx 78.53158961991267 78 79 x 80 y 80
-len c_dirs 79
-newdirs 10 olddirs 20
-scores: [[2.95, 6], [4.2, 6], [5.4, 7], [5.9, 7], [6.4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'L', 'R', 'L', 'R', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['R', 'R', 'L', 'F', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[6, 3]]
+len 9 11 
+dirs  ['R', 'L', 'R', 'R', 'F', 'L', 'F', 'R', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'R', 'L', 'F', 'R', 'F', 'L', 'R'] 
+contact points [[3, 0]]
+len 10 11 
+dirs  ['F', 'L', 'F', 'L', 'F', 'R', 'L', 'L', 'R', 'F'] 
+contact points [[7, 4]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R', 'R'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['R', 'L', 'R', 'R', 'F', 'L', 'F', 'R', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['R', 'R', 'R', 'F', 'L', 'F', 'R', 'R', 'F', 'F'] 
+contact points [[8, 3], [7, 4]]
+len 9 11 
+dirs  ['R', 'L', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'R', 'L', 'L', 'R', 'R', 'F', 'L', 'R'] 
+contact points [[1, 4], [3, 6]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 10 11 
+dirs  ['F', 'R', 'F', 'L', 'F', 'R', 'L', 'L', 'R', 'F'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'F', 'R', 'L', 'F', 'R', 'F', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'R', 'R', 'F', 'R', 'F', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'R', 'L', 'F', 'R', 'F', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['F', 'L', 'F', 'R', 'L', 'F', 'R', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'L', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points [[3, 0]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'L', 'F', 'F', 'L', 'R', 'R', 'F', 'L', 'R'] 
+contact points [[6, 3]]
+len 10 11 
+dirs  ['F', 'L', 'R', 'F', 'F', 'L', 'R', 'F', 'L', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'F', 'L', 'F', 'R', 'L', 'L', 'R', 'F'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'F', 'F', 'F', 'R', 'R', 'F', 'L', 'R'] 
+contact points [[7, 2], [6, 3]]
+len 10 11 
+dirs  ['F', 'L', 'F', 'R', 'L', 'L', 'F', 'L', 'R', 'F'] 
+contact points [[7, 2], [5, 2]]
+len 10 11 
+dirs  ['R', 'R', 'L', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+scores: [0.0, 0.0, 0.025, 0.025, 0.05]
 generation 6
-cx 14.910679318729759 14 15 x 77 y 80
-len c_dirs 79
-cx 27.80783018654959 27 28 x 77 y 80
-len c_dirs 79
-cx 38.42112426697866 38 39 x 81 y 78
-len c_dirs 77
-cx 51.701048628728834 51 52 x 80 y 77
-len c_dirs 76
-cx 48.68834432039635 48 49 x 77 y 79
-len c_dirs 78
-cx 30.18015450090747 30 31 x 78 y 78
-len c_dirs 77
-cx 2.127482211147429 2 3 x 80 y 80
-len c_dirs 79
-cx 41.379655852581486 41 42 x 79 y 78
-len c_dirs 77
-cx 36.95734921016639 36 37 x 78 y 78
-len c_dirs 77
-cx 27.50049751687235 27 28 x 80 y 79
-len c_dirs 78
-cx 33.62458418427599 33 34 x 77 y 80
-len c_dirs 79
-cx 2.7583612697813424 2 3 x 78 y 81
-len c_dirs 80
-cx 29.896895597941977 29 30 x 79 y 78
-len c_dirs 77
-cx 6.0049201185086964 6 7 x 80 y 78
-len c_dirs 77
-cx 61.83693166889614 61 62 x 80 y 80
-len c_dirs 79
-cx 23.04727747248384 23 24 x 78 y 80
-len c_dirs 79
-cx 43.18904645629559 43 44 x 78 y 79
-len c_dirs 78
-cx 7.233918731517841 7 8 x 80 y 78
-len c_dirs 77
-cx 71.55509754558341 71 72 x 79 y 80
-len c_dirs 79
-cx 44.16033024736586 44 45 x 77 y 79
-len c_dirs 78
-cx 5.039149977439653 5 6 x 77 y 81
-len c_dirs 80
-cx 33.25991791325331 33 34 x 78 y 77
-len c_dirs 76
-cx 66.81436195993783 66 67 x 80 y 79
-len c_dirs 78
-cx 29.56276471091943 29 30 x 80 y 78
-len c_dirs 77
-cx 54.38415963556355 54 55 x 78 y 80
-len c_dirs 79
-cx 66.78253762002844 66 67 x 80 y 80
-len c_dirs 79
-cx 57.4642027068881 57 58 x 79 y 78
-len c_dirs 77
-cx 64.67123623021762 64 65 x 79 y 78
-len c_dirs 77
-cx 57.532821129293815 57 58 x 79 y 78
-len c_dirs 77
-cx 56.80020509102033 56 57 x 80 y 80
-len c_dirs 79
-cx 79.80308170400603 79 80 x 81 y 79
-len c_dirs 79
-cx 9.046702465781221 9 10 x 78 y 81
-len c_dirs 80
-cx 66.30654706260333 66 67 x 77 y 78
-len c_dirs 77
-cx 2.506186616511327 2 3 x 79 y 81
-len c_dirs 80
-cx 9.409324561638714 9 10 x 79 y 78
-len c_dirs 77
-cx 70.67204970064381 70 71 x 77 y 81
-len c_dirs 80
-cx 19.927454404976597 19 20 x 81 y 78
-len c_dirs 77
-cx 31.508854672012 31 32 x 80 y 81
-len c_dirs 80
-cx 71.05697212301229 71 72 x 77 y 78
-len c_dirs 77
-cx 68.68676159741267 68 69 x 77 y 79
-len c_dirs 78
-cx 5.924832557917892 5 6 x 80 y 79
-len c_dirs 78
-cx 23.973432757100987 23 24 x 78 y 79
-len c_dirs 78
-cx 41.157976867283296 41 42 x 78 y 77
-len c_dirs 76
-cx 14.783134363986429 14 15 x 77 y 79
-len c_dirs 78
-cx 24.399967840013588 24 25 x 78 y 81
-len c_dirs 80
-cx 29.73185369770199 29 30 x 78 y 77
-len c_dirs 76
-cx 71.62064993138011 71 72 x 80 y 77
-len c_dirs 76
-cx 18.175738234543335 18 19 x 79 y 81
-len c_dirs 80
-cx 63.91424023189819 63 64 x 80 y 80
-len c_dirs 79
-cx 46.93282629422529 46 47 x 80 y 81
-len c_dirs 80
-cx 58.73190642841685 58 59 x 80 y 78
-len c_dirs 77
-cx 31.161394926604213 31 32 x 80 y 77
-len c_dirs 76
-cx 17.63679799599921 17 18 x 80 y 79
-len c_dirs 78
-cx 29.164924290213968 29 30 x 80 y 77
-len c_dirs 76
-cx 12.890682457046081 12 13 x 78 y 80
-len c_dirs 79
-cx 46.42579091230368 46 47 x 79 y 80
-len c_dirs 79
-cx 1.009600106072919 1 2 x 77 y 78
-len c_dirs 77
-cx 15.667656031883368 15 16 x 80 y 81
-len c_dirs 80
-cx 68.85412114058826 68 69 x 78 y 79
-len c_dirs 78
-cx 47.83461818610647 47 48 x 78 y 78
-len c_dirs 77
-cx 18.510213517252105 18 19 x 81 y 78
-len c_dirs 77
-cx 9.968081152366706 9 10 x 80 y 77
-len c_dirs 76
-cx 67.4980304393009 67 68 x 78 y 79
-len c_dirs 78
-cx 49.43438689349249 49 50 x 79 y 80
-len c_dirs 79
-cx 21.634098767882122 21 22 x 81 y 78
-len c_dirs 77
-cx 6.125505147645059 6 7 x 78 y 78
-len c_dirs 77
-cx 61.64971323686764 61 62 x 81 y 80
-len c_dirs 79
-cx 75.1380251689702 75 76 x 80 y 79
-len c_dirs 78
-cx 38.28570773496394 38 39 x 79 y 78
-len c_dirs 77
-cx 74.16258930957996 74 75 x 78 y 77
-len c_dirs 76
-cx 4.842917763794763 4 5 x 79 y 78
-len c_dirs 77
-cx 69.65941063992976 69 70 x 80 y 79
-len c_dirs 78
-cx 46.09822004628344 46 47 x 78 y 80
-len c_dirs 79
-cx 72.09882154857034 72 73 x 78 y 80
-len c_dirs 79
-cx 15.47433747889265 15 16 x 81 y 77
-len c_dirs 76
-cx 41.611606759035595 41 42 x 80 y 80
-len c_dirs 79
-cx 20.748713102802302 20 21 x 78 y 79
-len c_dirs 78
-cx 60.227788847104456 60 61 x 79 y 78
-len c_dirs 77
-cx 59.4195448514442 59 60 x 78 y 79
-len c_dirs 78
-newdirs 10 olddirs 20
-scores: [[2.95, 6], [4.2, 6], [5.4, 7], [5.9, 7], [6.4, 7], [6.9, 7]]
+len 10 11 
+dirs  ['F', 'R', 'R', 'F', 'F', 'L', 'F', 'F', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'R', 'L', 'F', 'R', 'F', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'L', 'R', 'L', 'F', 'R', 'F', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'R', 'R', 'F', 'L', 'F', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'L', 'R', 'R', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[1, 4], [3, 6]]
+len 10 11 
+dirs  ['R', 'L', 'L', 'F', 'L', 'R', 'R', 'F', 'R', 'L'] 
+contact points [[6, 3]]
+len 10 11 
+dirs  ['F', 'L', 'L', 'F', 'F', 'L', 'R', 'R', 'F', 'L'] 
+contact points [[7, 4]]
+len 10 11 
+dirs  ['R', 'L', 'F', 'F', 'R', 'R', 'L', 'F', 'R', 'L'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['F', 'L', 'R', 'F', 'L', 'F', 'L', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'L', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'L', 'R', 'L', 'F', 'R', 'F', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'L', 'R', 'F', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'L', 'F', 'L', 'F', 'R', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 10 11 
+dirs  ['R', 'R', 'R', 'L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['F', 'R', 'F', 'F', 'F', 'R', 'R', 'L', 'F', 'L'] 
+contact points [[6, 3]]
+len 10 11 
+dirs  ['F', 'L', 'L', 'F', 'F', 'L', 'R', 'R', 'L', 'R'] 
+contact points [[7, 4]]
+len 10 11 
+dirs  ['F', 'F', 'R', 'L', 'R', 'R', 'L', 'L', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[4, 7]]
+len 10 11 
+dirs  ['R', 'R', 'L', 'F', 'R', 'L', 'F', 'R', 'F', 'R'] 
+contact points []
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05]
 generation 7
-cx 7.143453978698662 7 8 x 78 y 80
-len c_dirs 79
-cx 35.68452220405694 35 36 x 78 y 79
-len c_dirs 78
-cx 49.12239414354064 49 50 x 79 y 78
-len c_dirs 77
-cx 69.79812348243398 69 70 x 79 y 80
-len c_dirs 79
-cx 39.69298755618547 39 40 x 78 y 79
-len c_dirs 78
-cx 2.6820307624684867 2 3 x 79 y 79
-len c_dirs 78
-cx 28.703590636538454 28 29 x 79 y 79
-len c_dirs 78
-cx 25.52169854088916 25 26 x 77 y 78
-len c_dirs 77
-cx 15.05792441659817 15 16 x 79 y 77
-len c_dirs 76
-cx 33.14563249183815 33 34 x 79 y 79
-len c_dirs 78
-cx 6.596094854282579 6 7 x 78 y 79
-len c_dirs 78
-cx 47.39023958824491 47 48 x 78 y 79
-len c_dirs 78
-cx 8.28767063369133 8 9 x 80 y 79
-len c_dirs 78
-cx 6.998745581994686 6 7 x 79 y 78
-len c_dirs 77
-cx 53.377563177053986 53 54 x 80 y 77
-len c_dirs 76
-cx 70.06517577996901 70 71 x 79 y 79
-len c_dirs 78
-cx 15.686929072809967 15 16 x 79 y 78
-len c_dirs 77
-cx 40.82998844886757 40 41 x 77 y 78
-len c_dirs 77
-cx 6.647739912863466 6 7 x 80 y 78
-len c_dirs 77
-cx 12.599533457379906 12 13 x 78 y 79
-len c_dirs 78
-cx 7.568394830917056 7 8 x 80 y 78
-len c_dirs 77
-cx 23.813209966955302 23 24 x 80 y 80
-len c_dirs 79
-cx 62.825707509782326 62 63 x 78 y 79
-len c_dirs 78
-cx 74.97014751068653 74 75 x 80 y 78
-len c_dirs 77
-cx 1.4056267193253207 1 2 x 78 y 80
-len c_dirs 79
-cx 55.504135598427986 55 56 x 78 y 78
-len c_dirs 77
-cx 43.283609419445625 43 44 x 77 y 80
-len c_dirs 79
-cx 36.39758336827042 36 37 x 79 y 79
-len c_dirs 78
-cx 13.265286487942241 13 14 x 77 y 78
-len c_dirs 77
-cx 13.842572378108198 13 14 x 80 y 78
-len c_dirs 77
-cx 75.83432067057682 75 76 x 79 y 78
-len c_dirs 77
-cx 3.208303801229129 3 4 x 78 y 80
-len c_dirs 79
-cx 29.908080279068116 29 30 x 80 y 79
-len c_dirs 78
-cx 43.27242896435486 43 44 x 77 y 78
-len c_dirs 77
-cx 22.71790636367583 22 23 x 77 y 80
-len c_dirs 79
-cx 25.16177976987195 25 26 x 78 y 79
-len c_dirs 78
-cx 49.34142925198518 49 50 x 77 y 77
-len c_dirs 76
-cx 15.030995953163245 15 16 x 78 y 78
-len c_dirs 77
-cx 19.49291620496629 19 20 x 80 y 78
-len c_dirs 77
-cx 34.96203643782418 34 35 x 78 y 77
-len c_dirs 76
-cx 61.16755047367206 61 62 x 79 y 80
-len c_dirs 79
-cx 45.44737648147818 45 46 x 78 y 78
-len c_dirs 77
-cx 63.93419447129712 63 64 x 80 y 78
-len c_dirs 77
-cx 75.68131994110831 75 76 x 80 y 78
-len c_dirs 77
-cx 28.142493430881853 28 29 x 77 y 77
-len c_dirs 76
-cx 34.56559691883447 34 35 x 78 y 77
-len c_dirs 76
-cx 62.740257722889844 62 63 x 78 y 77
-len c_dirs 76
-cx 19.28592646555996 19 20 x 79 y 80
-len c_dirs 79
-cx 51.68905436490456 51 52 x 79 y 79
-len c_dirs 78
-cx 53.17748838191545 53 54 x 77 y 80
-len c_dirs 79
-cx 32.8344233350635 32 33 x 77 y 80
-len c_dirs 79
-cx 2.129602158146665 2 3 x 79 y 78
-len c_dirs 77
-cx 71.91711551098996 71 72 x 79 y 80
-len c_dirs 79
-cx 71.42663020311288 71 72 x 80 y 79
-len c_dirs 78
-cx 40.36625924707124 40 41 x 80 y 80
-len c_dirs 79
-cx 59.095670322384244 59 60 x 78 y 77
-len c_dirs 76
-cx 36.58296597825984 36 37 x 79 y 77
-len c_dirs 76
-cx 9.932186342018493 9 10 x 77 y 77
-len c_dirs 76
-cx 36.006977608258644 36 37 x 78 y 80
-len c_dirs 79
-cx 28.92948882992552 28 29 x 79 y 77
-len c_dirs 76
-cx 12.5571483391475 12 13 x 79 y 79
-len c_dirs 78
-cx 46.5930676947263 46 47 x 80 y 79
-len c_dirs 78
-cx 48.4383352648897 48 49 x 80 y 79
-len c_dirs 78
-cx 66.24958520417046 66 67 x 80 y 79
-len c_dirs 78
-cx 8.666157866210593 8 9 x 80 y 78
-len c_dirs 77
-cx 42.6728471962685 42 43 x 80 y 79
-len c_dirs 78
-cx 30.8472575425091 30 31 x 79 y 78
-len c_dirs 77
-cx 13.830887211213774 13 14 x 79 y 78
-len c_dirs 77
-cx 41.483013680509934 41 42 x 77 y 80
-len c_dirs 79
-cx 37.0437071929143 37 38 x 78 y 78
-len c_dirs 77
-cx 3.6952576268607085 3 4 x 77 y 77
-len c_dirs 76
-cx 63.41418538759576 63 64 x 78 y 77
-len c_dirs 76
-cx 23.324041526431714 23 24 x 79 y 77
-len c_dirs 76
-cx 51.311971870563646 51 52 x 80 y 79
-len c_dirs 78
-cx 69.46350070241967 69 70 x 79 y 80
-len c_dirs 79
-cx 59.25155461979904 59 60 x 80 y 78
-len c_dirs 77
-cx 18.094441385287595 18 19 x 79 y 78
-len c_dirs 77
-cx 41.11794949864315 41 42 x 77 y 80
-len c_dirs 79
-cx 6.279576252852976 6 7 x 80 y 79
-len c_dirs 78
-cx 13.471686389539038 13 14 x 79 y 78
-len c_dirs 77
-cx 11.231944559103066 11 12 x 78 y 77
-len c_dirs 76
-cx 56.412530881606564 56 57 x 80 y 79
-len c_dirs 78
-cx 25.73543380225271 25 26 x 78 y 77
-len c_dirs 76
-cx 30.164738320284215 30 31 x 78 y 78
-len c_dirs 77
-cx 48.63758382524878 48 49 x 77 y 79
-len c_dirs 78
-cx 38.887665352213034 38 39 x 78 y 80
-len c_dirs 79
-cx 4.609434583150005 4 5 x 80 y 77
-len c_dirs 76
-cx 63.835214018864534 63 64 x 78 y 77
-len c_dirs 76
-cx 5.019922407039264 5 6 x 79 y 80
-len c_dirs 79
-cx 36.77946207796834 36 37 x 77 y 79
-len c_dirs 78
-cx 78.54442717201462 78 79 x 79 y 78
-len c_dirs 78
-newdirs 10 olddirs 20
-scores: [[2.95, 6], [4.2, 6], [5.4, 7], [5.9, 7], [6.4, 7], [6.9, 7], [7.1, 9]]
+len 10 11 
+dirs  ['L', 'R', 'F', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[3, 6]]
+len 10 11 
+dirs  ['R', 'F', 'F', 'F', 'R', 'R', 'L', 'F', 'R', 'L'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['L', 'F', 'R', 'L', 'L', 'R', 'L', 'R', 'R', 'L'] 
+contact points [[1, 4], [5, 8]]
+len 10 11 
+dirs  ['F', 'L', 'L', 'R', 'L', 'F', 'R', 'F', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['F', 'L', 'L', 'F', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['F', 'L', 'L', 'F', 'F', 'L', 'R', 'F', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'L', 'F', 'L', 'F', 'R', 'L', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'R', 'R', 'F', 'L', 'F', 'R', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'L', 'F', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'R', 'F', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'R', 'R', 'F', 'F', 'L', 'F', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'F', 'L', 'R', 'R', 'F', 'F', 'L', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 10 11 
+dirs  ['L', 'F', 'R', 'R', 'F', 'F', 'L', 'F', 'L', 'L'] 
+contact points []
+len 10 11 
+dirs  ['R', 'R', 'R', 'F', 'L', 'F', 'R', 'F', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['F', 'F', 'L', 'R', 'R', 'F', 'F', 'L', 'F', 'F'] 
+contact points [[1, 4]]
+len 10 11 
+dirs  ['R', 'F', 'F', 'F', 'R', 'R', 'L', 'F', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'F', 'F', 'R', 'L', 'R', 'F', 'R', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'R', 'F', 'L', 'F', 'R', 'R', 'F', 'F', 'L'] 
+contact points [[2, 7], [3, 6]]
+len 10 11 
+dirs  ['L', 'R', 'F', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6]]
+len 10 11 
+dirs  ['L', 'F', 'F', 'R', 'L', 'R', 'R', 'L', 'F', 'R'] 
+contact points [[3, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075]
 generation 8
-cx 72.19765073907227 72 73 x 79 y 79
-len c_dirs 78
-cx 19.093557164884356 19 20 x 78 y 80
-len c_dirs 79
-cx 74.09559084643723 74 75 x 78 y 78
-len c_dirs 77
-cx 53.613874900703614 53 54 x 77 y 78
-len c_dirs 77
-cx 75.27627806539299 75 76 x 80 y 78
-len c_dirs 77
-cx 1.7266865013469879 1 2 x 80 y 80
-len c_dirs 79
-cx 46.18933591368354 46 47 x 79 y 80
-len c_dirs 79
-cx 5.880993440102115 5 6 x 79 y 78
-len c_dirs 77
-cx 33.96576772132897 33 34 x 77 y 80
-len c_dirs 79
-cx 24.90417992595388 24 25 x 78 y 77
-len c_dirs 76
-cx 23.81243242648582 23 24 x 77 y 77
-len c_dirs 76
-cx 64.7843435358206 64 65 x 77 y 78
-len c_dirs 77
-cx 68.4797921908279 68 69 x 78 y 79
-len c_dirs 78
-cx 24.62741740244891 24 25 x 77 y 78
-len c_dirs 77
-cx 14.167591951565724 14 15 x 79 y 79
-len c_dirs 78
-cx 10.735925613870059 10 11 x 80 y 78
-len c_dirs 77
-cx 26.410951657668324 26 27 x 78 y 80
-len c_dirs 79
-cx 20.930726602594095 20 21 x 77 y 79
-len c_dirs 78
-cx 60.81817523485896 60 61 x 80 y 78
-len c_dirs 77
-cx 70.10973051254962 70 71 x 78 y 77
-len c_dirs 76
-cx 1.3517395520943163 1 2 x 79 y 79
-len c_dirs 78
-cx 26.782481862734137 26 27 x 78 y 77
-len c_dirs 76
-cx 19.93176865844582 19 20 x 78 y 77
-len c_dirs 76
-cx 30.64456891118823 30 31 x 79 y 79
-len c_dirs 78
-cx 78.91901909886278 78 79 x 80 y 78
-len c_dirs 78
-cx 70.29809100130984 70 71 x 80 y 79
-len c_dirs 78
-cx 61.804315447729834 61 62 x 79 y 79
-len c_dirs 78
-cx 48.68924558392862 48 49 x 78 y 79
-len c_dirs 78
-cx 76.24285058821476 76 77 x 78 y 79
-len c_dirs 78
-cx 71.83080246202502 71 72 x 77 y 78
-len c_dirs 77
-cx 69.96112067780322 69 70 x 79 y 77
-len c_dirs 76
-cx 47.88883714268947 47 48 x 80 y 79
-len c_dirs 78
-cx 59.971710619956596 59 60 x 77 y 79
-len c_dirs 78
-cx 68.25922403890128 68 69 x 79 y 77
-len c_dirs 76
-cx 36.45269723991554 36 37 x 80 y 79
-len c_dirs 78
-cx 9.752465834428827 9 10 x 78 y 77
-len c_dirs 76
-cx 68.58200655302196 68 69 x 79 y 80
-len c_dirs 79
-cx 16.668105796548605 16 17 x 78 y 79
-len c_dirs 78
-cx 2.2093700776789 2 3 x 79 y 77
-len c_dirs 76
-cx 73.12887689112969 73 74 x 77 y 77
-len c_dirs 76
-cx 70.28436239490003 70 71 x 77 y 77
-len c_dirs 76
-cx 0.4040597742135307 0 1 x 77 y 78
-len c_dirs 77
-cx 78.12957354773384 78 79 x 79 y 80
-len c_dirs 79
-cx 30.34177524398562 30 31 x 77 y 78
-len c_dirs 77
-cx 22.536889634698174 22 23 x 77 y 79
-len c_dirs 78
-cx 38.711099156594386 38 39 x 80 y 77
-len c_dirs 76
-cx 22.568266263535506 22 23 x 79 y 77
-len c_dirs 76
-cx 73.12699354896529 73 74 x 78 y 78
-len c_dirs 77
-cx 64.27595237340911 64 65 x 78 y 78
-len c_dirs 77
-newdirs 10 olddirs 20
-scores: [[2.95, 6], [4.2, 6], [5.4, 7], [5.9, 7], [6.4, 7], [6.9, 7], [7.1, 9], [7.15, 9]]
+len 10 11 
+dirs  ['R', 'L', 'L', 'F', 'L', 'R', 'F', 'F', 'R', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'R', 'R', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'R', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'F', 'F', 'R', 'L', 'R', 'R', 'L', 'F'] 
+contact points [[3, 6]]
+len 9 11 
+dirs  ['L', 'F', 'F', 'L', 'R', 'F', 'F', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['F', 'L', 'L', 'R', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['F', 'L', 'L', 'R', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['F', 'L', 'L', 'F', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[3, 6]]
+len 10 11 
+dirs  ['L', 'F', 'F', 'F', 'R', 'R', 'L', 'F', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'L', 'F', 'R', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 10 11 
+dirs  ['L', 'F', 'F', 'R', 'L', 'R', 'R', 'L', 'F', 'L'] 
+contact points [[3, 6]]
+len 10 11 
+dirs  ['F', 'L', 'R', 'L', 'F', 'R', 'L', 'L', 'R', 'F'] 
+contact points [[7, 4]]
+len 10 11 
+dirs  ['F', 'L', 'R', 'F', 'L', 'F', 'F', 'F', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'R', 'F', 'F', 'L', 'F', 'F', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'F', 'F', 'F', 'R', 'R', 'L', 'F', 'R'] 
+contact points [[6, 3]]
+len 10 11 
+dirs  ['R', 'L', 'R', 'R', 'F', 'L', 'F', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['R', 'L', 'L', 'F', 'L', 'R', 'F', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'L', 'R', 'F', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'L', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points [[3, 0]]
+len 10 11 
+dirs  ['L', 'R', 'L', 'R', 'R', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[1, 4], [3, 6]]
+len 9 11 
+dirs  ['F', 'R', 'L', 'L', 'R', 'L', 'R', 'F', 'F'] 
+contact points []
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125]
 generation 9
-cx 39.01944378344166 39 40 x 78 y 77
-len c_dirs 76
-cx 25.558754646557116 25 26 x 78 y 78
-len c_dirs 77
-cx 41.63614748712457 41 42 x 79 y 77
-len c_dirs 76
-cx 15.120945413362618 15 16 x 79 y 80
-len c_dirs 79
-cx 13.534565327278314 13 14 x 77 y 79
-len c_dirs 78
-cx 13.718737977211532 13 14 x 78 y 79
-len c_dirs 78
-cx 29.27369425689232 29 30 x 77 y 78
-len c_dirs 77
-cx 15.160465697016685 15 16 x 77 y 78
-len c_dirs 77
-cx 56.75760988425239 56 57 x 78 y 79
-len c_dirs 78
-cx 36.347462762703636 36 37 x 77 y 79
-len c_dirs 78
-cx 22.479688284663133 22 23 x 78 y 79
-len c_dirs 78
-cx 59.12425214627193 59 60 x 78 y 79
-len c_dirs 78
-cx 7.7517547615984554 7 8 x 79 y 79
-len c_dirs 78
-cx 6.3349449761814824 6 7 x 79 y 76
-len c_dirs 75
-cx 61.813639840837844 61 62 x 80 y 76
-len c_dirs 75
-cx 74.40999098156452 74 75 x 80 y 79
-len c_dirs 78
-cx 32.78597492954095 32 33 x 79 y 77
-len c_dirs 76
-cx 66.47702204700185 66 67 x 80 y 80
-len c_dirs 79
-cx 76.86521441643505 76 77 x 79 y 78
-len c_dirs 77
-cx 77.50528064965629 77 78 x 79 y 78
-len c_dirs 77
-cx 24.17449173578651 24 25 x 77 y 77
-len c_dirs 76
-cx 58.063822759240935 58 59 x 77 y 79
-len c_dirs 78
-cx 31.436410013245204 31 32 x 78 y 78
-len c_dirs 77
-cx 39.11552997519135 39 40 x 79 y 77
-len c_dirs 76
-cx 10.655624555703241 10 11 x 78 y 79
-len c_dirs 78
-cx 37.90356406628728 37 38 x 78 y 76
-len c_dirs 75
-cx 73.25958161016726 73 74 x 76 y 79
-len c_dirs 78
-cx 28.907868253370196 28 29 x 79 y 78
-len c_dirs 77
-cx 71.05220126162762 71 72 x 80 y 79
-len c_dirs 78
-cx 38.56438250211592 38 39 x 79 y 77
-len c_dirs 76
-cx 21.852319743776025 21 22 x 76 y 78
-len c_dirs 77
-cx 46.78003672239192 46 47 x 78 y 79
-len c_dirs 78
-cx 74.26217713496789 74 75 x 80 y 79
-len c_dirs 78
-cx 64.56681563547446 64 65 x 79 y 76
-len c_dirs 75
-cx 33.134385126468146 33 34 x 77 y 79
-len c_dirs 78
-cx 48.446414154507615 48 49 x 78 y 79
-len c_dirs 78
-cx 69.51092964299876 69 70 x 80 y 79
-len c_dirs 78
-cx 37.99661488121143 37 38 x 80 y 79
-len c_dirs 78
-cx 39.87689622018738 39 40 x 79 y 78
-len c_dirs 77
-cx 4.402356901171059 4 5 x 77 y 79
-len c_dirs 78
-cx 33.832076503391164 33 34 x 77 y 76
-len c_dirs 75
-cx 73.80928140405506 73 74 x 79 y 80
-len c_dirs 79
-cx 13.377923698453454 13 14 x 77 y 79
-len c_dirs 78
-cx 77.28644606823391 77 78 x 79 y 80
-len c_dirs 79
-cx 29.681017650938955 29 30 x 77 y 78
-len c_dirs 77
-cx 50.135537442306756 50 51 x 79 y 77
-len c_dirs 76
-cx 67.50821057630444 67 68 x 78 y 79
-len c_dirs 78
-cx 10.105867415229074 10 11 x 77 y 78
-len c_dirs 77
-cx 75.68435355971422 75 76 x 78 y 77
-len c_dirs 76
-cx 43.95943982663158 43 44 x 76 y 78
-len c_dirs 77
-cx 12.927956133645456 12 13 x 78 y 78
-len c_dirs 77
-cx 10.495590922046182 10 11 x 78 y 79
-len c_dirs 78
-cx 46.37146597887052 46 47 x 78 y 77
-len c_dirs 76
-cx 19.382371074605082 19 20 x 80 y 79
-len c_dirs 78
-cx 43.172366671133055 43 44 x 78 y 80
-len c_dirs 79
-cx 27.65216518112684 27 28 x 76 y 80
-len c_dirs 79
-cx 43.01120940712928 43 44 x 77 y 78
-len c_dirs 77
-cx 40.82657215232135 40 41 x 80 y 80
-len c_dirs 79
-cx 1.83265413853321 1 2 x 76 y 80
-len c_dirs 79
-cx 14.471397017657878 14 15 x 79 y 77
-len c_dirs 76
-cx 57.78641098048294 57 58 x 78 y 79
-len c_dirs 78
-cx 7.3363738729459085 7 8 x 76 y 77
-len c_dirs 76
-cx 36.496961873115445 36 37 x 76 y 77
-len c_dirs 76
-cx 77.49659683109496 77 78 x 80 y 79
-len c_dirs 78
-cx 27.640424352668063 27 28 x 77 y 77
-len c_dirs 76
-cx 63.37059598741795 63 64 x 80 y 79
-len c_dirs 78
-cx 13.493593425709628 13 14 x 77 y 79
-len c_dirs 78
-cx 59.910076850043325 59 60 x 78 y 77
-len c_dirs 76
-cx 50.30265329857801 50 51 x 76 y 78
-len c_dirs 77
-cx 20.71016474033273 20 21 x 78 y 80
-len c_dirs 79
-cx 31.715808596412234 31 32 x 78 y 76
-len c_dirs 75
-cx 70.68391565165068 70 71 x 80 y 78
-len c_dirs 77
-newdirs 10 olddirs 20
-scores: [[2.95, 6], [4.2, 6], [5.4, 7], [5.9, 7], [6.4, 7], [6.9, 7], [7.1, 9], [7.15, 9], [7.35, 9]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'R', 'L', 'F', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'L', 'R', 'L', 'R', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'R', 'F', 'F', 'L', 'F', 'F', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['F', 'L', 'F', 'L', 'F', 'R', 'R', 'F', 'F', 'L'] 
+contact points [[6, 3], [7, 2]]
+len 10 11 
+dirs  ['R', 'L', 'L', 'F', 'F', 'R', 'R', 'F', 'F', 'L'] 
+contact points [[7, 2], [8, 1]]
+len 10 11 
+dirs  ['L', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 10 11 
+dirs  ['F', 'L', 'L', 'F', 'F', 'L', 'R', 'R', 'F', 'L'] 
+contact points [[7, 4]]
+len 9 11 
+dirs  ['L', 'F', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'F', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[3, 6]]
+len 10 11 
+dirs  ['L', 'R', 'F', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[3, 6]]
+len 9 11 
+dirs  ['L', 'F', 'R', 'R', 'F', 'F', 'L', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[3, 6], [1, 6], [5, 8]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 10 11 
+dirs  ['L', 'F', 'R', 'L', 'L', 'R', 'R', 'F', 'L', 'L'] 
+contact points [[1, 4], [3, 6]]
+len 10 11 
+dirs  ['L', 'F', 'F', 'R', 'R', 'F', 'F', 'L', 'F', 'F'] 
+contact points [[1, 4]]
+len 10 11 
+dirs  ['L', 'R', 'F', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[3, 6]]
+len 10 11 
+dirs  ['L', 'F', 'R', 'R', 'F', 'F', 'L', 'F', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'R', 'F', 'L', 'F', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'F', 'F', 'L', 'R', 'R', 'F', 'F', 'R'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['F', 'L', 'L', 'L', 'F', 'R', 'L', 'L', 'R', 'F'] 
+contact points [[3, 0], [4, 7]]
+len 10 11 
+dirs  ['L', 'L', 'F', 'R', 'F', 'R', 'F', 'F', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['F', 'L', 'L', 'F', 'F', 'L', 'R', 'R', 'F', 'L'] 
+contact points [[7, 4]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'F', 'F', 'L', 'R', 'F', 'L', 'L'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'L', 'F', 'L', 'F', 'F', 'L', 'F', 'F'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L', 'L'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'R', 'R', 'F', 'L', 'F', 'R', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'F', 'L', 'R', 'R', 'F', 'F', 'L', 'L'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['F', 'R', 'F', 'F', 'F', 'R', 'L', 'R', 'L', 'R'] 
+contact points []
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2]
 generation 10
-cx 49.39214527264011 49 50 x 76 y 77
-len c_dirs 76
-cx 18.419305083996456 18 19 x 80 y 79
-len c_dirs 78
-cx 66.36359039891262 66 67 x 80 y 79
-len c_dirs 78
-cx 51.102447050495954 51 52 x 77 y 79
-len c_dirs 78
-cx 53.4388238724596 53 54 x 79 y 80
-len c_dirs 79
-cx 10.911300599758471 10 11 x 79 y 77
-len c_dirs 76
-cx 70.96941007758583 70 71 x 77 y 79
-len c_dirs 78
-cx 20.144015554387863 20 21 x 79 y 77
-len c_dirs 76
-cx 64.50333160414354 64 65 x 80 y 79
-len c_dirs 78
-cx 31.327143654610012 31 32 x 79 y 76
-len c_dirs 75
-cx 54.27356152831111 54 55 x 78 y 76
-len c_dirs 75
-cx 2.0850805836936033 2 3 x 79 y 77
-len c_dirs 76
-cx 12.824304813458212 12 13 x 79 y 76
-len c_dirs 75
-cx 59.7295683636867 59 60 x 78 y 80
-len c_dirs 79
-cx 59.86953546235138 59 60 x 79 y 77
-len c_dirs 76
-cx 7.898380570705805 7 8 x 77 y 78
-len c_dirs 77
-cx 43.86641435542944 43 44 x 78 y 79
-len c_dirs 78
-cx 63.48306885476098 63 64 x 80 y 79
-len c_dirs 78
-cx 69.40129650822168 69 70 x 80 y 78
-len c_dirs 77
-cx 36.84958603506558 36 37 x 80 y 79
-len c_dirs 78
-cx 1.292064582548214 1 2 x 79 y 77
-len c_dirs 76
-cx 30.32801661330124 30 31 x 77 y 79
-len c_dirs 78
-cx 57.982448138231746 57 58 x 76 y 79
-len c_dirs 78
-cx 42.64492603517711 42 43 x 80 y 80
-len c_dirs 79
-cx 54.446461523643464 54 55 x 79 y 80
-len c_dirs 79
-cx 48.20048178615872 48 49 x 79 y 79
-len c_dirs 78
-cx 39.50197426239609 39 40 x 77 y 76
-len c_dirs 75
-cx 63.193764110334484 63 64 x 80 y 79
-len c_dirs 78
-cx 24.309784947497043 24 25 x 79 y 77
-len c_dirs 76
-cx 56.76184546991592 56 57 x 79 y 78
-len c_dirs 77
-cx 67.93948709012004 67 68 x 79 y 78
-len c_dirs 77
-cx 60.253223016064325 60 61 x 77 y 79
-len c_dirs 78
-cx 29.889465657802308 29 30 x 77 y 79
-len c_dirs 78
-cx 41.30815178925421 41 42 x 80 y 77
-len c_dirs 76
-cx 9.5749497960492 9 10 x 79 y 77
-len c_dirs 76
-cx 45.451023719928024 45 46 x 79 y 80
-len c_dirs 79
-cx 48.217977276626 48 49 x 79 y 77
-len c_dirs 76
-cx 72.24626102618427 72 73 x 79 y 80
-len c_dirs 79
-cx 29.419990490470944 29 30 x 79 y 77
-len c_dirs 76
-cx 59.957208114879656 59 60 x 77 y 77
-len c_dirs 76
-cx 45.19126196181274 45 46 x 79 y 79
-len c_dirs 78
-cx 35.284950785735376 35 36 x 79 y 79
-len c_dirs 78
-cx 35.92214987565646 35 36 x 78 y 80
-len c_dirs 79
-cx 71.46984577700582 71 72 x 80 y 77
-len c_dirs 76
-cx 39.49466632397511 39 40 x 80 y 78
-len c_dirs 77
-cx 61.19889452853616 61 62 x 77 y 78
-len c_dirs 77
-cx 48.90979169024074 48 49 x 80 y 77
-len c_dirs 76
-cx 26.655911200156766 26 27 x 79 y 76
-len c_dirs 75
-cx 30.22506495086958 30 31 x 78 y 80
-len c_dirs 79
-cx 34.28119031898816 34 35 x 80 y 79
-len c_dirs 78
-cx 23.440770704925903 23 24 x 78 y 76
-len c_dirs 75
-cx 66.84231297003643 66 67 x 80 y 79
-len c_dirs 78
-cx 28.600985396498544 28 29 x 80 y 76
-len c_dirs 75
-cx 0.4059908470921769 0 1 x 80 y 77
-len c_dirs 76
-cx 58.051965994934044 58 59 x 76 y 80
-len c_dirs 79
-cx 71.63288071906094 71 72 x 77 y 79
-len c_dirs 78
-cx 34.35144748402868 34 35 x 79 y 77
-len c_dirs 76
-cx 61.528946278101486 61 62 x 77 y 79
-len c_dirs 78
-cx 50.36616264616047 50 51 x 77 y 77
-len c_dirs 76
-cx 60.431908849583735 60 61 x 79 y 80
-len c_dirs 79
-cx 15.275879841604837 15 16 x 76 y 80
-len c_dirs 79
-cx 20.728590718995495 20 21 x 77 y 79
-len c_dirs 78
-cx 64.81593229713835 64 65 x 77 y 80
-len c_dirs 79
-cx 16.165038331437426 16 17 x 77 y 79
-len c_dirs 78
-cx 29.374648217447945 29 30 x 77 y 79
-len c_dirs 78
-cx 2.2079570734208747 2 3 x 78 y 76
-len c_dirs 75
-cx 2.136255582735762 2 3 x 80 y 79
-len c_dirs 78
-cx 68.71068485742772 68 69 x 79 y 77
-len c_dirs 76
-cx 4.382128141937521 4 5 x 79 y 79
-len c_dirs 78
-cx 7.128364461980455 7 8 x 79 y 77
-len c_dirs 76
-cx 25.77161444478932 25 26 x 79 y 80
-len c_dirs 79
-cx 5.053259715397919 5 6 x 79 y 77
-len c_dirs 76
-cx 37.33671455895245 37 38 x 80 y 78
-len c_dirs 77
-cx 16.32620204588905 16 17 x 80 y 78
-len c_dirs 77
-cx 33.32742131364655 33 34 x 80 y 79
-len c_dirs 78
-cx 35.29685203830344 35 36 x 80 y 76
-len c_dirs 75
-cx 18.41059010216882 18 19 x 80 y 77
-len c_dirs 76
-cx 63.40904669032949 63 64 x 77 y 79
-len c_dirs 78
-cx 5.214953687381591 5 6 x 78 y 77
-len c_dirs 76
-cx 33.3204163597361 33 34 x 77 y 77
-len c_dirs 76
-cx 27.531198824078274 27 28 x 79 y 77
-len c_dirs 76
-cx 53.58819212722478 53 54 x 79 y 78
-len c_dirs 77
-cx 27.248798182664792 27 28 x 80 y 79
-len c_dirs 78
-cx 63.98778926358121 63 64 x 79 y 77
-len c_dirs 76
-cx 2.1548506353665906 2 3 x 79 y 79
-len c_dirs 78
-cx 25.461947112732258 25 26 x 79 y 80
-len c_dirs 79
-cx 44.81020031391203 44 45 x 76 y 78
-len c_dirs 77
-cx 16.09247527200808 16 17 x 77 y 78
-len c_dirs 77
-cx 44.00167703068176 44 45 x 80 y 77
-len c_dirs 76
-cx 48.16665177983815 48 49 x 80 y 77
-len c_dirs 76
-cx 64.05307464100835 64 65 x 76 y 79
-len c_dirs 78
-cx 46.78634506853463 46 47 x 76 y 77
-len c_dirs 76
-cx 36.15139193972506 36 37 x 77 y 79
-len c_dirs 78
-cx 11.90608052629754 11 12 x 80 y 77
-len c_dirs 76
-cx 77.27083823765878 77 78 x 79 y 77
-len c_dirs 77
-cx 58.18715176475153 58 59 x 80 y 78
-len c_dirs 77
-cx 36.629291073440875 36 37 x 80 y 79
-len c_dirs 78
-cx 68.99734745703604 68 69 x 80 y 79
-len c_dirs 78
-newdirs 10 olddirs 20
-scores: [[2.95, 6], [4.2, 6], [5.4, 7], [5.9, 7], [6.4, 7], [6.9, 7], [7.1, 9], [7.15, 9], [7.35, 9], [8.05, 9]]
-first:
-score 4
-score 3
-score 0
-score 5
-score 1
-score 2
-score 0
-score 1
-score 6
-score 2
-final:
-score 9
-score 9
-score 7
-score 9
-score 9
-score 9
-score 9
-score 7
-score 9
-score 9
+len 10 11 
+dirs  ['R', 'R', 'R', 'F', 'F', 'L', 'F', 'F', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'R', 'L', 'F', 'R', 'L', 'L', 'R', 'F'] 
+contact points [[7, 4]]
+len 10 11 
+dirs  ['L', 'L', 'F', 'F', 'L', 'R', 'R', 'F', 'L', 'R'] 
+contact points [[6, 3]]
+len 10 11 
+dirs  ['R', 'R', 'R', 'F', 'R', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[6, 3]]
+len 9 11 
+dirs  ['R', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['F', 'R', 'F', 'F', 'F', 'F', 'F', 'L', 'F', 'F'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'F', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'L', 'F', 'F', 'L', 'F', 'F', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'R', 'F', 'F', 'L', 'F', 'F', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['F', 'L', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['F', 'R', 'L', 'R', 'R', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[1, 4], [3, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['F', 'L', 'R', 'F', 'L', 'F', 'L', 'F', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['F', 'L', 'F', 'L', 'R', 'F', 'F', 'R', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'F', 'R', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['R', 'R', 'R', 'L', 'F', 'R', 'L', 'L', 'R', 'F'] 
+contact points [[4, 7]]
+len 10 11 
+dirs  ['F', 'F', 'R', 'L', 'R', 'R', 'L', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6], [1, 6], [1, 8]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[3, 6], [1, 6], [5, 8]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 10 11 
+dirs  ['L', 'F', 'F', 'L', 'R', 'L', 'R', 'F', 'R', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'F', 'L', 'R', 'R', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5], [4, 7]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'F', 'R', 'F', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['R', 'L', 'R', 'R', 'F', 'R', 'L', 'L', 'R', 'F'] 
+contact points []
+len 10 11 
+dirs  ['F', 'R', 'F', 'F', 'F', 'R', 'R', 'L', 'R', 'R'] 
+contact points [[6, 3]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'F', 'F', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'L', 'R', 'R', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'F', 'L', 'F', 'F'] 
+contact points [[1, 8]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 10 11 
+dirs  ['R', 'F', 'R', 'F', 'L', 'L', 'R', 'F', 'R', 'R'] 
+contact points []
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3]
+generation 11
+len 10 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['F', 'R', 'F', 'F', 'F', 'R', 'R', 'L', 'F'] 
+contact points [[6, 3]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 10 11 
+dirs  ['L', 'R', 'F', 'F', 'R', 'R', 'L', 'F', 'R', 'L'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'R', 'R', 'F', 'F', 'L'] 
+contact points [[7, 2], [6, 3]]
+len 9 11 
+dirs  ['F', 'L', 'L', 'F', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'F', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[3, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['F', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 10 11 
+dirs  ['R', 'L', 'R', 'R', 'F', 'R', 'L', 'F', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'R', 'F', 'L', 'F', 'R', 'R', 'F'] 
+contact points [[7, 4]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'R', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6]]
+len 9 11 
+dirs  ['F', 'L', 'L', 'F', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'L', 'F', 'F', 'L', 'R', 'R', 'F', 'L', 'R'] 
+contact points [[6, 3]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6], [1, 6], [1, 8]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 10 11 
+dirs  ['R', 'R', 'F', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['F', 'F', 'R', 'L', 'R', 'L', 'R', 'F', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['F', 'R', 'F', 'F', 'F', 'R', 'R', 'L', 'R'] 
+contact points [[6, 3]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'L', 'R', 'R', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['F', 'L', 'R', 'F', 'L', 'F', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'F', 'R', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'R', 'F', 'L', 'L', 'R', 'F', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6], [1, 6], [1, 8]]
+len 10 11 
+dirs  ['L', 'R', 'F', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'F', 'R', 'R', 'L', 'F', 'R', 'L'] 
+contact points [[5, 2], [5, 0]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['F', 'R', 'F', 'F', 'F', 'R', 'R', 'L', 'L', 'R'] 
+contact points [[8, 5], [6, 3]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['F', 'R', 'F', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['L', 'R', 'F', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['F', 'L', 'F', 'F', 'L', 'R', 'R', 'F', 'L', 'R'] 
+contact points [[6, 3]]
+len 8 11 
+dirs  ['L', 'R', 'F', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['F', 'L', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 0]]
+len 9 11 
+dirs  ['R', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['F', 'L', 'L', 'F', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'F', 'F', 'L', 'R', 'R', 'F', 'L', 'R'] 
+contact points [[3, 6]]
+len 10 11 
+dirs  ['L', 'L', 'F', 'F', 'L', 'R', 'R', 'F', 'L', 'R'] 
+contact points [[6, 3]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['F', 'L', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 0]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 9 11 
+dirs  ['F', 'L', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['R', 'R', 'R', 'F', 'L', 'F', 'R', 'R', 'F', 'F'] 
+contact points [[8, 3], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575]
+generation 12
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['F', 'L', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['F', 'F', 'R', 'L', 'R', 'R', 'L', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 10 11 
+dirs  ['L', 'L', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'F', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'L', 'F', 'R', 'F', 'R', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['F', 'L', 'R', 'F', 'L', 'F', 'L', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'L', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'L', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 0]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['F', 'F', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'F', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'F', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6], [1, 6], [1, 8]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 10 11 
+dirs  ['L', 'R', 'F', 'L', 'F', 'L', 'F', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6], [1, 6], [1, 8]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['F', 'L', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875]
+generation 13
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'L', 'F', 'R', 'F', 'R', 'L', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6], [1, 6], [1, 8]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 10 11 
+dirs  ['L', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6], [1, 6], [1, 8]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'F'] 
+contact points [[3, 6], [1, 6], [1, 8]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 10 11 
+dirs  ['L', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['F', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['L', 'F', 'R', 'F', 'R', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6], [1, 6], [1, 8]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6], [1, 6], [1, 8]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6], [1, 6], [1, 8]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'L', 'F', 'R', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'L', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 0]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 10 11 
+dirs  ['F', 'R', 'L', 'R', 'R', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[1, 4], [3, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L', 'F'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'L', 'R', 'R', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[1, 4], [3, 6]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6], [1, 6], [1, 8]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95]
+generation 14
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 10 11 
+dirs  ['L', 'R', 'R', 'L', 'R', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[3, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['F', 'F', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['F', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 10 11 
+dirs  ['L', 'R', 'L', 'R', 'R', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[1, 4], [3, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['F', 'F', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975]
+generation 15
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0]
+generation 16
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0]
+generation 17
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0]
+generation 18
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0]
+generation 19
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 20
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 21
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 22
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 23
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 24
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 25
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 26
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 27
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 28
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 29
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 30
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 31
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 32
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 33
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 34
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 7 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 35
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 36
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7], [2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 7 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L', 'R'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'R', 'L'] 
+contact points [[4, 7]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[7, 0], [5, 2]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'L', 'R'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'R'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[2, 5]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F', 'F'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'L'] 
+contact points []
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R'] 
+contact points [[3, 6], [1, 6]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F', 'L'] 
+contact points [[5, 2]]
+len 8 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'F'] 
+contact points [[5, 2]]
+len 9 11 
+dirs  ['R', 'R', 'L', 'F', 'L', 'L', 'R', 'R', 'L'] 
+contact points [[5, 2], [7, 4]]
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'R'] 
+contact points [[3, 6], [1, 6]]
+scores: [0.0, 0.0, 0.025, 0.025, 0.05, 0.05, 0.075, 0.125, 0.2, 0.3, 0.575, 0.875, 0.95, 0.975, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+generation 37
+len 8 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'R', 'F'] 
+contact points []
+len 9 11 
+dirs  ['L', 'R', 'R', 'L', 'F', 'L', 'L', 'R', 'L'] 
+contact points [[3, 6], [1, 6]]
