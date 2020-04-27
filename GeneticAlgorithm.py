@@ -263,7 +263,7 @@ plt.xlabel('Generation')
 plt.ylabel('Fitness Score')
 plt.title('Fitness Score vs Generation')
 plt.savefig('fitness/'+sys.argv[1]+"_"+sys.argv[2]+"_"+sys.argv[3]+"_"+sys.argv[4]+"_"+sys.argv[5]+".png")
-# plt.show()
+plt.show()
 plt.clf()
 
 
