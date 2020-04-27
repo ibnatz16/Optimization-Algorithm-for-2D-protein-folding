@@ -8,7 +8,7 @@
 In this repository we implement a genetic algorithm to optimize for hydrophobic contact points in 2D protein folding. A sequence of amino acids is read from a fasta file and passed through a genetic algorithm parameterized through command line arguments (see usage). <br/>
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/GeneticAlgorithm.png?raw=true)
 ## Usage <br/>
-    python3 GeneticAlgorithm.py <filename> <population size> <percent nonrandom selection> <mutation rate>
+    python3 GeneticAlgorithm.py <filename> <population size> <number of iterations> <percent nonrandom selection> <mutation rate>
 Percent nonrandom selection and mutation rate should be entered as decimals between 0 and 1
 #### Example:
     python3 GeneticAlgorithm.py rcsb_pdb_4BWD.fasta 15 14 0.4 0.0005
