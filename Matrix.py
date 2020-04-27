@@ -355,6 +355,6 @@ def plotContacts(dirs, contacts, seq, gen, co):
     for cx,cy in zip(cp_x,cp_y):
         plt.plot(cx, cy, linestyle='dashed',color='purple',linewidth=2)
     plt.plot(x,y,color='black')
-    plt.savefig('folding/generations/'+sys.argv[1]+"_"+sys.argv[2]+"_"+sys.argv[3]+"_"+sys.argv[4]+"_"+sys.argv[5]+"_"+sys.argv[6]+"_gen_"+str(gen)+"_seq_"+str(co)+".png")
+    plt.savefig('folding/generations/'+sys.argv[1]+"_"+sys.argv[2]+"_"+sys.argv[3]+"_"+sys.argv[4]+"_"+sys.argv[5]+"_gen_"+str(gen)+"_seq_"+str(co)+".png")
     # plt.show()
     plt.clf()
