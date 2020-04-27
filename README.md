@@ -54,11 +54,11 @@ The following plots were obtained from the following command: `python3 GeneticAl
 ### Fitness 
 #### Standard
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/fitness.png)
+#### Increase Population (20 -> 20)
+![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/fitness_p.png)
 #### Increase Nonrandom Selection Rate (.90 -> .99)
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/fitness_s.png)
 #### Decrease Mutation Rate (.05 -> .005)
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/fitness_m.png)
-## Increase Population (20 -> 20)
-![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/fitness_p.png)
-## Increase Nonrandom Selection Rate and Decrease Mutation Rate (.90 -> .99, .05 -> .005)
+#### Increase Nonrandom Selection Rate and Decrease Mutation Rate (.90 -> .99, .05 -> .005)
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/fitness_m%2Bs.png)
