@@ -50,5 +50,5 @@ The following plots were obtained from the following command: `python3 GeneticAl
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex2_genF.png)
 #### Generation 5 Sequence 8
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex3_genF.png)
-#### Fitness Score vs. Number of Iterations
+#### Fitness Score
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/fitness.png)
