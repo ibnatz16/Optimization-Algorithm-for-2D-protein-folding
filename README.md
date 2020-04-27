@@ -5,7 +5,7 @@
 * matplotlib 3.0.3
 
 ## Overview
-In this repository we implement a genetic algorithm to optimize for hydrophobic contact points in 2D protein folding. A sequence of amino acids is read from a fasta file and passed through a genetic algorithm parameterized through command line argumenst (see usage). <br/>
+In this repository we implement a genetic algorithm to optimize for hydrophobic contact points in 2D protein folding. A sequence of amino acids is read from a fasta file and passed through a genetic algorithm parameterized through command line arguments (see usage). <br/>
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/GeneticAlgorithm.png?raw=true)
 ## Usage <br/>
     python3 GeneticAlgorithm.py <filename> <population size> <percent nonrandom selection> <mutation rate>
