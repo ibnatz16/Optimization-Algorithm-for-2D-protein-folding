@@ -9,7 +9,7 @@ In this repository we implement a genetic algorithm to optimize for hydrophobic 
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/GeneticAlgorithm.png?raw=true)
 ## Usage <br/>
     python3 GeneticAlgorithm.py <filename> <population size> <percent nonrandom selection> <mutation rate>
-percent nonrandom selection and mutation rate should be entered as decimals between 0 and 1
+Percent nonrandom selection and mutation rate should be entered as decimals between 0 and 1
 #### Example:
     python3 GeneticAlgorithm.py rcsb_pdb_4BWD.fasta 15 14 0.4 0.0005
 
@@ -37,4 +37,18 @@ Plots in `folding/outputs/` will be named according to:  `<fasta filename>_<popu
 Plots in `fitness/` will be named according to: `<fasta filename>_<population size>_<percent nonrandom selection>_<mutation rate>.png`<br/>
 
 ## Outputs
-The following plots were obtained from the following command `python3 GeneticAlgorithm.py test.fasta 10 5 .90 0.05`.
+The following plots were obtained from the following command: `python3 GeneticAlgorithm.py test.fasta 10 5 .90 0.05`.
+#### Generation 0 Sequence 1
+![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex1_gen0.png)
+#### Generation 0 Sequence 4
+![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex2_gen0.png)
+#### Generation 0 Sequence 6
+![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex3_gen0.png)
+#### Generation 5 Sequence 2
+![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex1_genF.png)
+#### Generation 5 Sequence 4
+![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex2_genF.png)
+#### Generation 5 Sequence 8
+![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex3_genF.png)
+#### Fitness Score vs. Number of Iterations
+![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/fitness.png)
