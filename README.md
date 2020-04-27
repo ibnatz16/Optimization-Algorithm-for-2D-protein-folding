@@ -46,9 +46,9 @@ The following plots were obtained from the following command: `python3 GeneticAl
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex3_gen0.png)
 #### Generation 5 Sequence 2
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex1_genF.png)
-#### Generation 0 Sequence 4
+#### Generation 5 Sequence 4
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex2_genF.png)
-#### Generation 0 Sequence 8
+#### Generation 5 Sequence 8
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex3_genF.png)
 #### Fitness Score vs. Number of Iterations
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/fitness.png)
