@@ -9,11 +9,10 @@ import math
 import numpy as np
 
 class Simulation():
-    def __init__(self, file, initial, iterations, cutoff):
+    def __init__(self, file, initial, iterations):
         self.file = file
         self.initial = initial
         self.iterations = iterations
-        self.fitnessCutoff = cutoff
         self.generationScore = []
         # current generation
         self.curr = None
@@ -25,8 +24,6 @@ class Simulation():
     def initialize(self):
         generation = Generation()
         generation.seq = getData(self.file)
-        if self.fitnessCutoff > len(generation.seq):
-            self.fitnessCutoff = math.floor(len(generation.seq)/2)
         m = 0
         for i in range(self.initial):
             while(True):
@@ -94,6 +91,9 @@ class Simulation():
                     print('true',x,y)
             # get contact points c
             c_cp = getAllContacts(c)
+            if DEBUG_4:
+                print("child's contacts")
+                plotContacts(c_dirs, c_cp, self.curr.seq)
             # print('len', len(c_dirs), self.seq, '\ndirs ', c_dirs, '\ncontact points', c_cp)
             # get score c
             c_sc = findFitnessScore(c_cp, self.curr.seq)
@@ -114,7 +114,7 @@ class Simulation():
             i += 1
         self.curr.dirs.extend(self.children.dirs) 
 
-    def update(self,newdirs):
+    def update(self,newdirs,gen):
         #update scores and curr
         self.totalDirs.append([self.generationScore, self.curr.dirs])
         self.curr.dirs = newdirs
@@ -130,6 +130,8 @@ class Simulation():
                 print('update is false')
                 sys.exit()
             updated_cp = getAllContacts(updatedMatrix)
+            # print('seq', i, '/',sys.argv[2])
+            plotContacts(newdirs[i], updated_cp, self.curr.seq,gen,i)
             update_sc = findFitnessScore(updated_cp, self.curr.seq)
             self.curr.contactPoints.append(updated_cp)
             self.curr.score.append(update_sc)
@@ -220,7 +222,7 @@ def getMin(arr):
 def getNums(upper):
     c = 0
     ret = []
-    while c < 10:
+    while c < min(10,upper):
         num = random.randint(0,upper-1)
         if num not in ret:
             ret.append(num)
@@ -231,21 +233,21 @@ def getNums(upper):
 # Main calls start here #
 #########################
 
-#args (file name, pop size, iterations, cutoff location for crossover, percent of selection, mutation rate(as decimal))
+#args (file name, pop size, iterations, cutoff location for crossover, percent of selection, mutation rate)
 
 
-sim = Simulation(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4]))
+sim = Simulation(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]))
 sim.initialize()
 c=0
 while(c<sim.iterations):
-    print("generation", c+1)
+    print("generation", c)
     # print(sim.curr.dirs)
     sim.crossOver()
     if DEBUG_3:
         print(sorted(sim.children.score))
-    sel_pop = sim.selection(float(sys.argv[5])) # returns array directions of new population 
-    mut_pop= mutate(sel_pop,float(sys.argv[6]), sim.seq) # returns mutated population
-    sim.update(mut_pop)
+    sel_pop = sim.selection(float(sys.argv[4])*100) # returns array directions of new population 
+    mut_pop= mutate(sel_pop,float(sys.argv[5]), sim.seq) # returns mutated population
+    sim.update(mut_pop,c)
     c+=1
 
 
@@ -256,9 +258,11 @@ avgs = []
 iterations = np.linspace(0, int(sys.argv[3]), len(sim.totalScore))
 for i in range(len(sim.totalScore)):
     avgs.append(sim.totalScore[i])
-# plt.plot(iterations, avgs)
+plt.plot(iterations, avgs)
+plt.savefig('fitness/'+sys.argv[1]+"_"+sys.argv[2]+"_"+sys.argv[3]+"_"+sys.argv[4]+"_"+sys.argv[5]+".png")
 # plt.show()
-plt.savefig('FitnessVTime.png')
+plt.clf()
+
 
 
 
@@ -318,8 +322,9 @@ for num in nums:
     plt.plot(x,y,color='black')
     plt.legend(handles=[h,hp])
     print(sys.argv[1]+name+str(ax)+'.png score:', fs)
-    plt.savefig('folding/'+sys.argv[1]+"_intial_"+sys.argv[2]+"_"+sys.argv[3]+"_"+sys.argv[4]+"_"+sys.argv[5]+"_"+sys.argv[6]+"_"+str(ax)+'.png')
-    plt.show()
+    plt.savefig('folding/outputs/'+sys.argv[1]+"_initial_"+sys.argv[2]+"_"+sys.argv[3]+"_"+sys.argv[4]+"_"+sys.argv[5]+"_"+str(ax)+'.png')
+    # plt.show()
+    plt.clf()
     ax += 1
 # get last generation
 name = 'folding_final_'
@@ -363,6 +368,7 @@ for num in nums:
         plt.plot(cx, cy, linestyle='dashed',color='purple',linewidth=2)
     plt.plot(x,y,color='black')
     print(sys.argv[1]+name+str(ax)+'.png score:', fs_1)
-    plt.savefig('folding/'+sys.argv[1]+"_final_"+sys.argv[2]+"_"+sys.argv[3]+"_"+sys.argv[4]+"_"+sys.argv[5]+"_"+sys.argv[6]+"_"+str(ax)+'.png')
-    plt.show()
+    plt.savefig('folding/outputs/'+sys.argv[1]+"_final_"+sys.argv[2]+"_"+sys.argv[3]+"_"+sys.argv[4]+"_"+sys.argv[5]+"_"+str(ax)+'.png')
+    # plt.show()
+    plt.clf()
     ax += 1

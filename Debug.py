@@ -2,6 +2,7 @@ DEBUG = False
 DEBUG_1 = False
 DEBUG_2 = False
 DEBUG_3 = False
+DEBUG_4 = False
 
 def printMatrix(folding):
     for i in range(len(folding)):

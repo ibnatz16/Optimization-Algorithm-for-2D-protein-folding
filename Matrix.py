@@ -3,6 +3,8 @@ import random
 import numpy
 import math
 from Score import *
+from matplotlib import pyplot as plt
+from matplotlib import patches as mpatches 
 
 def getData(argIn):
     f = open(argIn, "r")
@@ -314,3 +316,45 @@ def getSequence(dirs, seqLength):
     if DEBUG_3:
         print('return true')
     return ret
+
+def plotContacts(dirs, contacts, seq, gen, co):
+    proteins =	{"A" : "H",    "C" : "H",    "I" : "H",
+    "L" : "H",    "M" : "H",    "F" : "H",    "P" : "H",
+    "W" : "H",    "Y" : "H",    "V" : "H",
+    "R" : "P",    "N" : "P",    "D" : "P",    "Q" : "P",
+    "E" : "P",    "G" : "P",
+    "H" : "P",    "K" : "P",    "S" : "P",    "T" : "P" }
+    x = []
+    y = []
+    c = []
+    cp_x = []
+    cp_y = []
+    m = getSequence(dirs, len(seq))
+    for i in m:
+        x.append(i[0])
+        y.append(i[1])
+    # fill out colors
+    for i in range(len(x)):
+        if(proteins[seq[i]] == "H"):
+            # print("Hydrophobic")
+            c.append("red")
+        else:
+            # print("Hydrophillic")
+            c.append("green")
+    for i in contacts:
+        if(proteins[seq[i[0]]] == "H" and proteins[seq[i[1]]] == "H"):
+            cp_x.append([x[i[0]],x[i[1]]])
+            cp_y.append([y[i[0]],y[i[1]]])
+    fs_1 = findFitnessScore(contacts, seq)
+    h = mpatches.Patch(color='red', label='Hydrophobic')
+    hp = mpatches.Patch(color='green', label='Hydrophillic')
+    plt.legend(handles=[h,hp])
+    plt.axis('off')
+    plt.title('Score: ' + str(fs_1))
+    plt.scatter(x,y,c=c,s=100)
+    for cx,cy in zip(cp_x,cp_y):
+        plt.plot(cx, cy, linestyle='dashed',color='purple',linewidth=2)
+    plt.plot(x,y,color='black')
+    plt.savefig('folding/generations/'+sys.argv[1]+"_"+sys.argv[2]+"_"+sys.argv[3]+"_"+sys.argv[4]+"_"+sys.argv[5]+"_"+sys.argv[6]+"_gen_"+str(gen)+"_seq_"+str(co)+".png")
+    # plt.show()
+    plt.clf()
