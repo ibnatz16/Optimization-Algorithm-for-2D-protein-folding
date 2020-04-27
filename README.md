@@ -39,22 +39,23 @@ Plots in `fitness/` will be named according to: `<fasta filename>_<population si
 ## Outputs
 The following plots were obtained from the following command: `python3 GeneticAlgorithm.py test.fasta 10 20 .90 0.05`.
 ### Sequences
+The following are 3 random sequences from generation 0 and generation 20.
 #### Generation 0 Sequence 1
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex1_gen0.png)
 #### Generation 0 Sequence 4
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex2_gen0.png)
 #### Generation 0 Sequence 6
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex3_gen0.png)
-#### Generation 5 Sequence 2
+#### Generation 20 Sequence 2
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex1_genF.png)
-#### Generation 5 Sequence 4
+#### Generation 20 Sequence 4
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex2_genF.png)
-#### Generation 5 Sequence 8
+#### Generation 20 Sequence 8
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/ex3_genF.png)
 ### Fitness 
 #### Standard
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/fitness.png)
-#### Increase Population (20 -> 20)
+#### Increase Population (10 -> 20)
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/fitness_p.png)
 #### Increase Nonrandom Selection Rate (.90 -> .99)
 ![alt text](https://github.com/ibnatz16/Homework2/blob/master/imgs/fitness_s.png)
