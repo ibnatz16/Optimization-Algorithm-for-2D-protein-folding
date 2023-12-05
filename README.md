@@ -1,4 +1,4 @@
-# Homework2
+# Optimization Algorithm for 2D Protein Folding
 ###### Contributors: Zahin Ibnat, Tikahari Khanal, Hannah Mathew
 #### Necessary Installs (pip3 install -r requirements.txt)
 * numpy 1.16.2
